@@ -1,0 +1,7 @@
+{
+  "groupId": "org.antlr",
+  "artifactId": "antlr4-runtime",
+  "version": "4.7.1",
+  "type": "jar",
+  "scope": "compile"
+}

@@ -1,0 +1,7 @@
+{
+  "groupId": "org.glassfish.hk2",
+  "artifactId": "hk2-locator",
+  "version": "2.5.0-b42",
+  "type": "jar",
+  "scope": "compile"
+}

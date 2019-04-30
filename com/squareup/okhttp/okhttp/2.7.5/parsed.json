@@ -1,0 +1,7 @@
+{
+  "groupId": "com.squareup.okhttp",
+  "artifactId": "okhttp",
+  "version": "2.7.5",
+  "type": "jar",
+  "scope": "compile"
+}

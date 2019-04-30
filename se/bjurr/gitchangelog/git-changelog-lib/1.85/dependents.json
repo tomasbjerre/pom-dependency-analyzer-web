@@ -1,0 +1,16 @@
+[
+  {
+    "groupId": "se.bjurr.gitchangelog",
+    "artifactId": "git-changelog-gradle-plugin",
+    "version": "1.59",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.gitchangelog",
+    "artifactId": "git-changelog-maven-plugin",
+    "version": "1.58",
+    "type": "maven-plugin",
+    "scope": "compile"
+  }
+]

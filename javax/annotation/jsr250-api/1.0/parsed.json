@@ -1,0 +1,7 @@
+{
+  "groupId": "javax.annotation",
+  "artifactId": "jsr250-api",
+  "version": "1.0",
+  "type": "jar",
+  "scope": "compile"
+}

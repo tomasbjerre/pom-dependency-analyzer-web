@@ -1,0 +1,30 @@
+[
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violations-gradle-plugin",
+    "version": "1.22-SNAPSHOT",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violations-gradle-plugin",
+    "version": "1.21",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violations-maven-plugin",
+    "version": "1.15",
+    "type": "maven-plugin",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violations-maven-plugin",
+    "version": "1.16-SNAPSHOT",
+    "type": "maven-plugin",
+    "scope": "compile"
+  }
+]

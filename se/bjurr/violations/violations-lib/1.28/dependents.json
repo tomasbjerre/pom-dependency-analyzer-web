@@ -1,0 +1,9 @@
+[
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-lib",
+    "version": "1.37",
+    "type": "jar",
+    "scope": "compile"
+  }
+]

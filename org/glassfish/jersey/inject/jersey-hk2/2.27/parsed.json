@@ -1,0 +1,7 @@
+{
+  "groupId": "org.glassfish.jersey.inject",
+  "artifactId": "jersey-hk2",
+  "version": "2.27",
+  "type": "jar",
+  "scope": "compile"
+}

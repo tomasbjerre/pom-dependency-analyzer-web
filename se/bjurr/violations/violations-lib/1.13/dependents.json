@@ -1,0 +1,149 @@
+[
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.9",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.13",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.14",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.11",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.10",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.12",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-lib",
+    "version": "1.19",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-lib",
+    "version": "1.16",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-lib",
+    "version": "1.17",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-lib",
+    "version": "1.18",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-github-lib",
+    "version": "1.14",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-github-lib",
+    "version": "1.16",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-github-lib",
+    "version": "1.17",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-github-lib",
+    "version": "1.15",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-github-lib",
+    "version": "1.18",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-github-gradle-plugin",
+    "version": "1.16",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-github-gradle-plugin",
+    "version": "1.17",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-github-gradle-plugin",
+    "version": "1.15",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-github-maven-plugin",
+    "version": "1.13",
+    "type": "maven-plugin",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-github-maven-plugin",
+    "version": "1.14",
+    "type": "maven-plugin",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-github-maven-plugin",
+    "version": "1.15",
+    "type": "maven-plugin",
+    "scope": "compile"
+  }
+]

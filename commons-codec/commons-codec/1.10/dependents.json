@@ -1,0 +1,373 @@
+[
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.55",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.61",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.81-SNAPSHOT",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.77-SNAPSHOT",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.86",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.58",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.80",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.82-SNAPSHOT",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.65",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.88-SNAPSHOT",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.51",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.74-SNAPSHOT",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.69",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.75",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.81",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.64",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.68",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.78",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.77",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.83",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.79-SNAPSHOT",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.78-SNAPSHOT",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.59",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.71",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.80-SNAPSHOT",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.52",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.60",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.66",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.84",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.73",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.67",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.82",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.79",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.57",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.56",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.75-SNAPSHOT",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.87",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.85",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.72-SNAPSHOT",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.63",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.76-SNAPSHOT",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.76",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.53",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.83-SNAPSHOT",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.70",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.62",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.74",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.72",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-bitbucket-server-lib",
+    "version": "1.54",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.wiremock",
+    "artifactId": "wiremock-jaxrs",
+    "version": "0.2",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.wiremock",
+    "artifactId": "wiremock-jaxrs",
+    "version": "0.1",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.wiremock",
+    "artifactId": "wiremock-jaxrs-example-api-mock",
+    "version": "1.6",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.wiremock",
+    "artifactId": "wiremock-jaxrs-example-api-mock",
+    "version": "1.5",
+    "type": "jar",
+    "scope": "compile"
+  }
+]

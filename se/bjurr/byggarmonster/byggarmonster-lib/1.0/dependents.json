@@ -1,0 +1,16 @@
+[
+  {
+    "groupId": "se.bjurr.byggarmonster",
+    "artifactId": "byggarmonster-gradle-plugin",
+    "version": "1.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.byggarmonster",
+    "artifactId": "byggarmonster-maven-plugin",
+    "version": "1.0",
+    "type": "maven-plugin",
+    "scope": "compile"
+  }
+]

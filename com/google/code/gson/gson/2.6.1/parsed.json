@@ -1,0 +1,7 @@
+{
+  "groupId": "com.google.code.gson",
+  "artifactId": "gson",
+  "version": "2.6.1",
+  "type": "jar",
+  "scope": "compile"
+}

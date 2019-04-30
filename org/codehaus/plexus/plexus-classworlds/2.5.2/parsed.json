@@ -1,0 +1,7 @@
+{
+  "groupId": "org.codehaus.plexus",
+  "artifactId": "plexus-classworlds",
+  "version": "2.5.2",
+  "type": "jar",
+  "scope": "compile"
+}

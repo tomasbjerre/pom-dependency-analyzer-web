@@ -1,0 +1,51 @@
+[
+  {
+    "groupId": "se.bjurr.gitchangelog",
+    "artifactId": "git-changelog-gradle-plugin",
+    "version": "1.61",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.gitchangelog",
+    "artifactId": "git-changelog-gradle-plugin",
+    "version": "1.61-SNAPSHOT",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.gitchangelog",
+    "artifactId": "git-changelog-gradle-plugin",
+    "version": "1.60",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.gitchangelog",
+    "artifactId": "git-changelog-gradle-plugin",
+    "version": "1.62-SNAPSHOT",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.gitchangelog",
+    "artifactId": "git-changelog-maven-plugin",
+    "version": "1.59-SNAPSHOT",
+    "type": "maven-plugin",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.gitchangelog",
+    "artifactId": "git-changelog-maven-plugin",
+    "version": "1.59",
+    "type": "maven-plugin",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.gitchangelog",
+    "artifactId": "git-changelog-maven-plugin",
+    "version": "1.60-SNAPSHOT",
+    "type": "maven-plugin",
+    "scope": "compile"
+  }
+]

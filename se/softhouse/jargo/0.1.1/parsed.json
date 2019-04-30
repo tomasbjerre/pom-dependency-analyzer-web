@@ -1,0 +1,7 @@
+{
+  "groupId": "se.softhouse",
+  "artifactId": "jargo",
+  "version": "0.1.1",
+  "type": "jar",
+  "scope": "compile"
+}

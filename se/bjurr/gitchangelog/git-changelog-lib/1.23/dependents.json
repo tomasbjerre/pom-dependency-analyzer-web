@@ -1,0 +1,65 @@
+[
+  {
+    "groupId": "se.bjurr.gitchangelog",
+    "artifactId": "git-changelog-command-line",
+    "version": "1.2",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.gitchangelog",
+    "artifactId": "git-changelog-command-line",
+    "version": "1.3",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.gitchangelog",
+    "artifactId": "git-changelog-gradle-plugin",
+    "version": "1.13",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.gitchangelog",
+    "artifactId": "git-changelog-gradle-plugin",
+    "version": "1.14",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.gitchangelog",
+    "artifactId": "git-changelog-gradle-plugin",
+    "version": "1.11",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.gitchangelog",
+    "artifactId": "git-changelog-gradle-plugin",
+    "version": "1.15",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.gitchangelog",
+    "artifactId": "git-changelog-gradle-plugin",
+    "version": "1.12",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.gitchangelog",
+    "artifactId": "git-changelog-maven-plugin",
+    "version": "1.13",
+    "type": "maven-plugin",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.gitchangelog",
+    "artifactId": "git-changelog-maven-plugin",
+    "version": "1.12",
+    "type": "maven-plugin",
+    "scope": "compile"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-annotations",
+    "version": "2.5.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-core",
+    "version": "2.5.3",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-databind",
+    "version": "2.5.3",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.github.spullara.mustache.java",
+    "artifactId": "compiler",
+    "version": "0.9.5",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "2.4",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.gitlab",
+    "artifactId": "java-gitlab-api",
+    "version": "4.0.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "1.7.22",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-lib",
+    "version": "1.71",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-gitlab-lib",
+    "version": "1.47",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violations-lib",
+    "version": "1.64",
+    "type": "jar",
+    "scope": "compile"
+  }
+]

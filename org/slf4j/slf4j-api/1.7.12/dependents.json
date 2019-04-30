@@ -1,0 +1,16 @@
+[
+  {
+    "groupId": "se.bjurr.wiremock",
+    "artifactId": "wiremock-jaxrs",
+    "version": "0.2",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.wiremock",
+    "artifactId": "wiremock-jaxrs",
+    "version": "0.1",
+    "type": "jar",
+    "scope": "compile"
+  }
+]

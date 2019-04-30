@@ -1,0 +1,30 @@
+[
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-gitlab-maven-plugin",
+    "version": "1.32",
+    "type": "maven-plugin",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-gitlab-maven-plugin",
+    "version": "1.33-SNAPSHOT",
+    "type": "maven-plugin",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-gitlab-gradle-plugin",
+    "version": "1.30-SNAPSHOT",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-to-gitlab-gradle-plugin",
+    "version": "1.29",
+    "type": "jar",
+    "scope": "compile"
+  }
+]

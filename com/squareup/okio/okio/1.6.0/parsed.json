@@ -1,0 +1,7 @@
+{
+  "groupId": "com.squareup.okio",
+  "artifactId": "okio",
+  "version": "1.6.0",
+  "type": "jar",
+  "scope": "compile"
+}

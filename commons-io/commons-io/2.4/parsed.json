@@ -1,0 +1,7 @@
+{
+  "groupId": "commons-io",
+  "artifactId": "commons-io",
+  "version": "2.4",
+  "type": "jar",
+  "scope": "compile"
+}

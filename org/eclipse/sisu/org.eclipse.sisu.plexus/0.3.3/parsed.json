@@ -1,0 +1,7 @@
+{
+  "groupId": "org.eclipse.sisu",
+  "artifactId": "org.eclipse.sisu.plexus",
+  "version": "0.3.3",
+  "type": "jar",
+  "scope": "compile"
+}

@@ -1,0 +1,7 @@
+{
+  "groupId": "org.codehaus.plexus",
+  "artifactId": "plexus-utils",
+  "version": "3.0.22",
+  "type": "jar",
+  "scope": "compile"
+}

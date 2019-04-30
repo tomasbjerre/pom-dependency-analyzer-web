@@ -1,0 +1,7 @@
+{
+  "groupId": "net.sf.jopt-simple",
+  "artifactId": "jopt-simple",
+  "version": "5.0.3",
+  "type": "jar",
+  "scope": "compile"
+}

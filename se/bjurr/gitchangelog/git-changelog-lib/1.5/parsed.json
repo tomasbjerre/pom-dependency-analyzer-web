@@ -1,0 +1,7 @@
+{
+  "groupId": "se.bjurr.gitchangelog",
+  "artifactId": "git-changelog-lib",
+  "version": "1.5",
+  "type": "jar",
+  "scope": "compile"
+}

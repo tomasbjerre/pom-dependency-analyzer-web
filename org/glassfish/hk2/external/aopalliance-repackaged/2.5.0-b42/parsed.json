@@ -1,0 +1,7 @@
+{
+  "groupId": "org.glassfish.hk2.external",
+  "artifactId": "aopalliance-repackaged",
+  "version": "2.5.0-b42",
+  "type": "jar",
+  "scope": "compile"
+}

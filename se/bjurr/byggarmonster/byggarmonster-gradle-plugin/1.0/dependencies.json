@@ -1,0 +1,30 @@
+[
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "18.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.antlr",
+    "artifactId": "antlr4",
+    "version": "4.5.1-1",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.byggarmonster",
+    "artifactId": "byggarmonster-lib",
+    "version": "1.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.softhouse",
+    "artifactId": "jargo",
+    "version": "0.1.1",
+    "type": "jar",
+    "scope": "compile"
+  }
+]

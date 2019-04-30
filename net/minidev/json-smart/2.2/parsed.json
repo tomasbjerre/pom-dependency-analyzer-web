@@ -1,0 +1,7 @@
+{
+  "groupId": "net.minidev",
+  "artifactId": "json-smart",
+  "version": "2.2",
+  "type": "jar",
+  "scope": "compile"
+}

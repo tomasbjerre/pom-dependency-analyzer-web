@@ -1,0 +1,268 @@
+[
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-annotations",
+    "version": "2.5.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-core",
+    "version": "2.5.3",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-databind",
+    "version": "2.5.3",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.github.spullara.mustache.java",
+    "artifactId": "compiler",
+    "version": "0.8.18",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.google.code.gson",
+    "artifactId": "gson",
+    "version": "2.6.1",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "16.0.1",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.googlecode.javaewah",
+    "artifactId": "JavaEWAH",
+    "version": "0.7.9",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.jayway.jsonpath",
+    "artifactId": "json-path",
+    "version": "2.1.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.jcraft",
+    "artifactId": "jsch",
+    "version": "0.1.50",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.squareup.okhttp",
+    "artifactId": "okhttp",
+    "version": "2.7.5",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.squareup.okhttp3",
+    "artifactId": "okhttp",
+    "version": "3.2.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.squareup.okio",
+    "artifactId": "okio",
+    "version": "1.6.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.squareup.retrofit2",
+    "artifactId": "converter-gson",
+    "version": "2.0.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.squareup.retrofit2",
+    "artifactId": "retrofit",
+    "version": "2.0.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "version": "1.4",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "2.4",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "commons-logging",
+    "artifactId": "commons-logging",
+    "version": "1.1.1",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "javax.annotation",
+    "artifactId": "jsr250-api",
+    "version": "1.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "javax.enterprise",
+    "artifactId": "cdi-api",
+    "version": "1.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "javax.inject",
+    "artifactId": "javax.inject",
+    "version": "1",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "net.minidev",
+    "artifactId": "accessors-smart",
+    "version": "1.1",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "net.minidev",
+    "artifactId": "json-smart",
+    "version": "2.2",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpclient",
+    "version": "4.1.3",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpcore",
+    "version": "4.1.4",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-artifact",
+    "version": "3.3.3",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-model",
+    "version": "3.3.3",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-plugin-api",
+    "version": "3.3.3",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.apache.maven.plugin-tools",
+    "artifactId": "maven-plugin-annotations",
+    "version": "3.4",
+    "type": "jar",
+    "scope": "provided"
+  },
+  {
+    "groupId": "org.codehaus.plexus",
+    "artifactId": "plexus-classworlds",
+    "version": "2.5.2",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.codehaus.plexus",
+    "artifactId": "plexus-component-annotations",
+    "version": "1.5.5",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.codehaus.plexus",
+    "artifactId": "plexus-utils",
+    "version": "3.0.22",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.eclipse.jgit",
+    "artifactId": "org.eclipse.jgit",
+    "version": "3.6.2.201501210735-r",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.eclipse.sisu",
+    "artifactId": "org.eclipse.sisu.inject",
+    "version": "0.3.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.eclipse.sisu",
+    "artifactId": "org.eclipse.sisu.plexus",
+    "version": "0.3.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.gitlab",
+    "artifactId": "java-gitlab-api",
+    "version": "1.2.7",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.ow2.asm",
+    "artifactId": "asm",
+    "version": "5.0.3",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "1.7.13",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.gitchangelog",
+    "artifactId": "git-changelog-lib",
+    "version": "1.71",
+    "type": "jar",
+    "scope": "compile"
+  }
+]

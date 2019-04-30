@@ -1,0 +1,7 @@
+{
+  "groupId": "se.bjurr.gitchangelog",
+  "artifactId": "git-changelog-gradle-plugin",
+  "version": "1.60",
+  "type": "jar",
+  "scope": "compile"
+}

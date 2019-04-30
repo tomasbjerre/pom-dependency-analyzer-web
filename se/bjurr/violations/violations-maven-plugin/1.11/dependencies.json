@@ -1,0 +1,93 @@
+[
+  {
+    "groupId": "javax.annotation",
+    "artifactId": "jsr250-api",
+    "version": "1.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "javax.enterprise",
+    "artifactId": "cdi-api",
+    "version": "1.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "javax.inject",
+    "artifactId": "javax.inject",
+    "version": "1",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-artifact",
+    "version": "3.3.3",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-model",
+    "version": "3.3.3",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-plugin-api",
+    "version": "3.3.3",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.apache.maven.plugin-tools",
+    "artifactId": "maven-plugin-annotations",
+    "version": "3.4",
+    "type": "jar",
+    "scope": "provided"
+  },
+  {
+    "groupId": "org.codehaus.plexus",
+    "artifactId": "plexus-classworlds",
+    "version": "2.5.2",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.codehaus.plexus",
+    "artifactId": "plexus-component-annotations",
+    "version": "1.5.5",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.codehaus.plexus",
+    "artifactId": "plexus-utils",
+    "version": "3.0.22",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.eclipse.sisu",
+    "artifactId": "org.eclipse.sisu.inject",
+    "version": "0.3.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.eclipse.sisu",
+    "artifactId": "org.eclipse.sisu.plexus",
+    "version": "0.3.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violations-git-lib",
+    "version": "1.12",
+    "type": "jar",
+    "scope": "compile"
+  }
+]

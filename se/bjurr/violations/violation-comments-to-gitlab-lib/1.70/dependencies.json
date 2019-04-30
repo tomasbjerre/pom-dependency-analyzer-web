@@ -1,0 +1,247 @@
+[
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-annotations",
+    "version": "2.9.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-core",
+    "version": "2.9.8",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-databind",
+    "version": "2.9.8",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.fasterxml.jackson.jaxrs",
+    "artifactId": "jackson-jaxrs-base",
+    "version": "2.9.8",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.fasterxml.jackson.jaxrs",
+    "artifactId": "jackson-jaxrs-json-provider",
+    "version": "2.9.8",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.fasterxml.jackson.module",
+    "artifactId": "jackson-module-jaxb-annotations",
+    "version": "2.9.8",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.github.spullara.mustache.java",
+    "artifactId": "compiler",
+    "version": "0.9.5",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "com.sun.activation",
+    "artifactId": "javax.activation",
+    "version": "1.2.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "version": "1.9",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "commons-logging",
+    "artifactId": "commons-logging",
+    "version": "1.2",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "javax.activation",
+    "artifactId": "javax.activation-api",
+    "version": "1.2.0",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "javax.annotation",
+    "artifactId": "javax.annotation-api",
+    "version": "1.2",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "javax.inject",
+    "artifactId": "javax.inject",
+    "version": "1",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "javax.servlet-api",
+    "version": "4.0.1",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "javax.ws.rs",
+    "artifactId": "javax.ws.rs-api",
+    "version": "2.1",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "javax.xml.bind",
+    "artifactId": "jaxb-api",
+    "version": "2.3.1",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpclient",
+    "version": "4.5",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpcore",
+    "version": "4.4.1",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.gitlab4j",
+    "artifactId": "gitlab4j-api",
+    "version": "4.9.18",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "hk2-api",
+    "version": "2.5.0-b42",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "hk2-locator",
+    "version": "2.5.0-b42",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "hk2-utils",
+    "version": "2.5.0-b42",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "osgi-resource-locator",
+    "version": "1.0.1",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.glassfish.hk2.external",
+    "artifactId": "aopalliance-repackaged",
+    "version": "2.5.0-b42",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.glassfish.hk2.external",
+    "artifactId": "javax.inject",
+    "version": "2.5.0-b42",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.glassfish.jersey.connectors",
+    "artifactId": "jersey-apache-connector",
+    "version": "2.27",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.glassfish.jersey.core",
+    "artifactId": "jersey-client",
+    "version": "2.27",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.glassfish.jersey.core",
+    "artifactId": "jersey-common",
+    "version": "2.27",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.glassfish.jersey.inject",
+    "artifactId": "jersey-hk2",
+    "version": "2.27",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.glassfish.jersey.media",
+    "artifactId": "jersey-media-multipart",
+    "version": "2.27",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.javassist",
+    "artifactId": "javassist",
+    "version": "3.22.0-CR2",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.jvnet.mimepull",
+    "artifactId": "mimepull",
+    "version": "1.9.6",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "1.7.22",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-lib",
+    "version": "1.89",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violations-lib",
+    "version": "1.88",
+    "type": "jar",
+    "scope": "compile"
+  }
+]

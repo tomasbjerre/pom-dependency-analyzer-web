@@ -1,0 +1,7 @@
+{
+  "groupId": "se.bjurr.gitchangelog",
+  "artifactId": "git-release-notes",
+  "version": "1.0",
+  "type": "jar",
+  "scope": "compile"
+}

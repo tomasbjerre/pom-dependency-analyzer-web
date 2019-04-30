@@ -1,0 +1,7 @@
+{
+  "groupId": "se.bjurr.violations",
+  "artifactId": "violations-maven-plugin",
+  "version": "1.19",
+  "type": "maven-plugin",
+  "scope": "compile"
+}

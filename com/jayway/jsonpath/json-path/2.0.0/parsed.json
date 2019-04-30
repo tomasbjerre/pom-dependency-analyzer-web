@@ -1,0 +1,7 @@
+{
+  "groupId": "com.jayway.jsonpath",
+  "artifactId": "json-path",
+  "version": "2.0.0",
+  "type": "jar",
+  "scope": "compile"
+}

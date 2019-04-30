@@ -1,0 +1,9 @@
+[
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violation-comments-lib",
+    "version": "1.49",
+    "type": "pom",
+    "scope": "compile"
+  }
+]

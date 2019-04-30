@@ -1,0 +1,16 @@
+[
+  {
+    "groupId": "se.bjurr.wiremock",
+    "artifactId": "wiremock-jaxrs-example-api-mock",
+    "version": "1.6",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.wiremock",
+    "artifactId": "wiremock-jaxrs-example-api-mock",
+    "version": "1.5",
+    "type": "jar",
+    "scope": "compile"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "groupId": "javax.activation",
+  "artifactId": "activation",
+  "version": "1.1",
+  "type": "jar",
+  "scope": "compile"
+}

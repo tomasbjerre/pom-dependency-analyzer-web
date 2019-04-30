@@ -1,0 +1,7 @@
+{
+  "groupId": "se.bjurr.jmib",
+  "artifactId": "java-method-invocation-builder",
+  "version": "1.0",
+  "type": "jar",
+  "scope": "compile"
+}

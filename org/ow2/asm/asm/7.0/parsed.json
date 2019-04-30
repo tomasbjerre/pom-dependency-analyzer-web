@@ -1,0 +1,7 @@
+{
+  "groupId": "org.ow2.asm",
+  "artifactId": "asm",
+  "version": "7.0",
+  "type": "jar",
+  "scope": "compile"
+}

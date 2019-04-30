@@ -1,0 +1,7 @@
+{
+  "groupId": "org.slf4j",
+  "artifactId": "slf4j-api",
+  "version": "1.7.13",
+  "type": "jar",
+  "scope": "compile"
+}

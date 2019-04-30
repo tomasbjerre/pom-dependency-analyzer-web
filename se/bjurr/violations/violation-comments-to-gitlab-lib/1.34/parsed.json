@@ -1,0 +1,7 @@
+{
+  "groupId": "se.bjurr.violations",
+  "artifactId": "violation-comments-to-gitlab-lib",
+  "version": "1.34",
+  "type": "jar",
+  "scope": "compile"
+}

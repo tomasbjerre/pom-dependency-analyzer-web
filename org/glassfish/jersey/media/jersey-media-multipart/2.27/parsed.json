@@ -1,0 +1,7 @@
+{
+  "groupId": "org.glassfish.jersey.media",
+  "artifactId": "jersey-media-multipart",
+  "version": "2.27",
+  "type": "jar",
+  "scope": "compile"
+}

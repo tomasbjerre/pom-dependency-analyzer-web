@@ -1,0 +1,7 @@
+{
+  "groupId": "se.bjurr.violations",
+  "artifactId": "violation-comments-to-gitlab-maven-plugin",
+  "version": "1.23",
+  "type": "maven-plugin",
+  "scope": "compile"
+}

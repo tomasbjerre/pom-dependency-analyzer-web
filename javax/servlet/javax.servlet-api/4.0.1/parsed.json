@@ -1,0 +1,7 @@
+{
+  "groupId": "javax.servlet",
+  "artifactId": "javax.servlet-api",
+  "version": "4.0.1",
+  "type": "jar",
+  "scope": "compile"
+}

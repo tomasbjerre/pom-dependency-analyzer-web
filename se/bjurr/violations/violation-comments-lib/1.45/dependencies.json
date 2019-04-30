@@ -1,0 +1,16 @@
+[
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "1.7.22",
+    "type": "jar",
+    "scope": "compile"
+  },
+  {
+    "groupId": "se.bjurr.violations",
+    "artifactId": "violations-lib",
+    "version": "1.37",
+    "type": "jar",
+    "scope": "compile"
+  }
+]

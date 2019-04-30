@@ -1,0 +1,7 @@
+{
+  "groupId": "org.eclipse.jgit",
+  "artifactId": "org.eclipse.jgit",
+  "version": "3.6.2.201501210735-r",
+  "type": "jar",
+  "scope": "compile"
+}
