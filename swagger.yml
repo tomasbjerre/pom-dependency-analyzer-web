@@ -21,7 +21,7 @@ paths:
       summary: "Get list of groups"
       operationId: "getGroupIds"
       produces:
-      - "text/html"
+      - "application/json"
       responses:
         200:
           description: "successful operation"
