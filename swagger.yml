@@ -8,7 +8,7 @@ info:
     name: "Apache 2.0"
     url: "http://www.apache.org/licenses/LICENSE-2.0.html"
 host: "tomasbjerre.github.io"
-basePath: "/pom-dependency-analyzer-web/api/v1"
+basePath: "/pom-dependency-analyzer-web/pdaw/v1"
 tags:
 - name: "pet"
   description: "Everything about your Pets"
@@ -16,7 +16,7 @@ schemes:
 - "https"
 - "http"
 paths:
-  /groups:
+  /pdaw/groups.json:
     get:
       summary: "Get list of groups"
       operationId: "getGroupIds"
@@ -29,7 +29,7 @@ paths:
             type: "array"
             items:
               $ref: "#/definitions/Group"
-  /groups/{groupId}/artifacts:
+  /pdaw/groups/{groupId}/artifacts.json:
     get:
       summary: "Get list of artifacts"
       operationId: "getArtifacts"
@@ -48,7 +48,7 @@ paths:
       description: The groupId
       required: true
       type: string
-  /groups/{groupId}/artifacts/{artifactId}/versions:
+  /pdaw/groups/{groupId}/artifacts/{artifactId}/versions.json:
     get:
       summary: "Get list of versions"
       operationId: "getVersions"
@@ -72,7 +72,7 @@ paths:
       description: The artifactId
       required: true
       type: string
-  /groups/{groupId}/artifacts/{artifactId}/versions/{version}/dependencies:
+  /pdaw/groups/{groupId}/artifacts/{artifactId}/versions/{version}/dependencies.json:
     get:
       summary: "Get list of dependencies"
       operationId: "getDependencies"
@@ -101,7 +101,7 @@ paths:
       description: The version
       required: true
       type: string
-  /groups/{groupId}/artifacts/{artifactId}/versions/{version}/dependents:
+  /pdaw/groups/{groupId}/artifacts/{artifactId}/versions/{version}/dependents.json:
     get:
       summary: "Get list of dependents"
       operationId: "getDependents"
