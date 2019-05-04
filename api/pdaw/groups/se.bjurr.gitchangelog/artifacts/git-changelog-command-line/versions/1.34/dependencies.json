@@ -1,7 +1,203 @@
 [ {
+  "groupId" : "com.fasterxml.jackson.core",
+  "artifactId" : "jackson-annotations",
+  "version" : "2.5.0",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "com.fasterxml.jackson.core",
+  "artifactId" : "jackson-core",
+  "version" : "2.5.3",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "com.fasterxml.jackson.core",
+  "artifactId" : "jackson-databind",
+  "version" : "2.5.3",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "com.github.spullara.mustache.java",
+  "artifactId" : "compiler",
+  "version" : "0.8.18",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "com.google.code.gson",
+  "artifactId" : "gson",
+  "version" : "2.6.1",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "com.google.guava",
+  "artifactId" : "guava",
+  "version" : "16.0.1",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "com.googlecode.javaewah",
+  "artifactId" : "JavaEWAH",
+  "version" : "0.7.9",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "com.jayway.jsonpath",
+  "artifactId" : "json-path",
+  "version" : "2.1.0",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "com.jcraft",
+  "artifactId" : "jsch",
+  "version" : "0.1.50",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "com.squareup.okhttp",
+  "artifactId" : "okhttp",
+  "version" : "2.7.5",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "com.squareup.okhttp3",
+  "artifactId" : "okhttp",
+  "version" : "3.2.0",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "com.squareup.okio",
+  "artifactId" : "okio",
+  "version" : "1.6.0",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "com.squareup.retrofit2",
+  "artifactId" : "converter-gson",
+  "version" : "2.0.0",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "com.squareup.retrofit2",
+  "artifactId" : "retrofit",
+  "version" : "2.0.0",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "commons-codec",
+  "artifactId" : "commons-codec",
+  "version" : "1.4",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "commons-io",
+  "artifactId" : "commons-io",
+  "version" : "2.4",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "commons-logging",
+  "artifactId" : "commons-logging",
+  "version" : "1.1.1",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "junit",
+  "artifactId" : "junit",
+  "version" : "4.12",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "test"
+}, {
+  "groupId" : "net.minidev",
+  "artifactId" : "accessors-smart",
+  "version" : "1.1",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "net.minidev",
+  "artifactId" : "json-smart",
+  "version" : "2.2",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "org.apache.httpcomponents",
+  "artifactId" : "httpclient",
+  "version" : "4.1.3",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "org.apache.httpcomponents",
+  "artifactId" : "httpcore",
+  "version" : "4.1.4",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "org.eclipse.jgit",
+  "artifactId" : "org.eclipse.jgit",
+  "version" : "3.6.2.201501210735-r",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "org.gitlab",
+  "artifactId" : "java-gitlab-api",
+  "version" : "1.2.7",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "org.hamcrest",
+  "artifactId" : "hamcrest-core",
+  "version" : "1.3",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "test"
+}, {
+  "groupId" : "org.ow2.asm",
+  "artifactId" : "asm",
+  "version" : "5.0.3",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "org.slf4j",
+  "artifactId" : "slf4j-api",
+  "version" : "1.7.13",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
   "groupId" : "se.bjurr.gitchangelog",
-  "artifactId" : "git-changelog-command-line",
-  "version" : "1.34",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.67",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.softhouse",
+  "artifactId" : "jargo",
+  "version" : "0.1.1",
   "classifier" : null,
   "type" : "jar",
   "scope" : "compile"

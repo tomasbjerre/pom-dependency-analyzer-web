@@ -1,8 +1,29 @@
 [ {
   "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.7",
+  "artifactId" : "violation-comments-lib",
+  "version" : "1.8",
   "classifier" : null,
   "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-gradle-plugin",
+  "version" : "1.9",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-lib",
+  "version" : "1.8",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-maven-plugin",
+  "version" : "1.7",
+  "classifier" : null,
+  "type" : "maven-plugin",
   "scope" : "compile"
 } ]

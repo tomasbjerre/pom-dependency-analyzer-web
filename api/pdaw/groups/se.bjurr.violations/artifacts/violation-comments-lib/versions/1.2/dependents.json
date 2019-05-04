@@ -1,6 +1,6 @@
 [ {
   "groupId" : "se.bjurr.violations",
-  "artifactId" : "violation-comments-lib",
+  "artifactId" : "violation-comments-to-github-lib",
   "version" : "1.2",
   "classifier" : null,
   "type" : "jar",

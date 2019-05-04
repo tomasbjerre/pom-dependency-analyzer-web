@@ -1,8 +1,8 @@
 [ {
   "groupId" : "se.bjurr.violations",
-  "artifactId" : "violation-comments-to-github-lib",
-  "version" : "1.59",
+  "artifactId" : "violation-comments-to-github-maven-plugin",
+  "version" : "1.47",
   "classifier" : null,
-  "type" : "jar",
+  "type" : "maven-plugin",
   "scope" : "compile"
 } ]

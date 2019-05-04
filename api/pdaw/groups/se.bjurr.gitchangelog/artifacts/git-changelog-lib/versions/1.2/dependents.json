@@ -1,6 +1,6 @@
 [ {
   "groupId" : "se.bjurr.gitchangelog",
-  "artifactId" : "git-changelog-lib",
+  "artifactId" : "git-changelog-gradle-plugin",
   "version" : "1.2",
   "classifier" : null,
   "type" : "jar",

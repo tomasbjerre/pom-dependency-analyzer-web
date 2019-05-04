@@ -24,9 +24,6 @@
   "artifactId" : "violation-comments-to-gitlab-maven-plugin"
 }, {
   "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-git-lib"
-}, {
-  "groupId" : "se.bjurr.violations",
   "artifactId" : "violations-gradle-plugin"
 }, {
   "groupId" : "se.bjurr.violations",

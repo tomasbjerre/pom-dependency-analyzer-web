@@ -1,8 +1,15 @@
 [ {
   "groupId" : "se.bjurr.gitchangelog",
-  "artifactId" : "git-changelog-lib",
-  "version" : "1.82",
+  "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.56",
   "classifier" : null,
   "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-maven-plugin",
+  "version" : "1.55",
+  "classifier" : null,
+  "type" : "maven-plugin",
   "scope" : "compile"
 } ]

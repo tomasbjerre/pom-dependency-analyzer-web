@@ -1,8 +1,0 @@
-[ {
-  "groupId" : "junit",
-  "artifactId" : "junit",
-  "version" : "4.12",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "test"
-} ]

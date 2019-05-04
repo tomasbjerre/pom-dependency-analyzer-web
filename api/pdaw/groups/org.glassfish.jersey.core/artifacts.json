@@ -1,7 +1,0 @@
-[ {
-  "groupId" : "org.glassfish.jersey.core",
-  "artifactId" : "jersey-client"
-}, {
-  "groupId" : "org.glassfish.jersey.core",
-  "artifactId" : "jersey-common"
-} ]

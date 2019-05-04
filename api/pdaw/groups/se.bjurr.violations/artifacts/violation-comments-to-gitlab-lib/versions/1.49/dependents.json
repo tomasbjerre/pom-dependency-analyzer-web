@@ -1,8 +1,15 @@
 [ {
   "groupId" : "se.bjurr.violations",
-  "artifactId" : "violation-comments-to-gitlab-lib",
-  "version" : "1.49",
+  "artifactId" : "violation-comments-to-gitlab-gradle-plugin",
+  "version" : "1.22",
   "classifier" : null,
   "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-gitlab-maven-plugin",
+  "version" : "1.24",
+  "classifier" : null,
+  "type" : "maven-plugin",
   "scope" : "compile"
 } ]

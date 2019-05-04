@@ -1,7 +1,14 @@
 [ {
+  "groupId" : "org.slf4j",
+  "artifactId" : "slf4j-api",
+  "version" : "1.7.22",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
   "groupId" : "se.bjurr.violations",
-  "artifactId" : "violation-comments-lib",
-  "version" : "1.45",
+  "artifactId" : "violations-lib",
+  "version" : "1.37",
   "classifier" : null,
   "type" : "jar",
   "scope" : "compile"

@@ -1,8 +1,0 @@
-[ {
-  "groupId" : "org.slf4j",
-  "artifactId" : "slf4j-simple",
-  "version" : "1.7.13",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "test"
-} ]

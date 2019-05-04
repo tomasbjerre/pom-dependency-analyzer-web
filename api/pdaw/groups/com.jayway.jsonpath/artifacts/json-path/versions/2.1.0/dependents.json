@@ -1,8 +1,0 @@
-[ {
-  "groupId" : "com.jayway.jsonpath",
-  "artifactId" : "json-path",
-  "version" : "2.1.0",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-} ]

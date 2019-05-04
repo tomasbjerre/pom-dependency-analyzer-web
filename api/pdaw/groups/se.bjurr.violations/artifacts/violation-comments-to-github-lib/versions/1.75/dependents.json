@@ -1,8 +1,15 @@
 [ {
   "groupId" : "se.bjurr.violations",
-  "artifactId" : "violation-comments-to-github-lib",
-  "version" : "1.75",
+  "artifactId" : "violation-comments-to-github-gradle-plugin",
+  "version" : "1.55",
   "classifier" : null,
   "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-maven-plugin",
+  "version" : "1.54",
+  "classifier" : null,
+  "type" : "maven-plugin",
   "scope" : "compile"
 } ]

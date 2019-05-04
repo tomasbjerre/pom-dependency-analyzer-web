@@ -1,8 +1,0 @@
-[ {
-  "groupId" : "com.squareup.okhttp",
-  "artifactId" : "okhttp",
-  "version" : "2.7.5",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-} ]

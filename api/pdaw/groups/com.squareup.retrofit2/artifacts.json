@@ -1,7 +1,0 @@
-[ {
-  "groupId" : "com.squareup.retrofit2",
-  "artifactId" : "converter-gson"
-}, {
-  "groupId" : "com.squareup.retrofit2",
-  "artifactId" : "retrofit"
-} ]

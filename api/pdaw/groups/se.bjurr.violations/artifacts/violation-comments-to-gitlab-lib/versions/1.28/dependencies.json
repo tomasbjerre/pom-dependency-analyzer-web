@@ -1,7 +1,56 @@
 [ {
+  "groupId" : "com.fasterxml.jackson.core",
+  "artifactId" : "jackson-annotations",
+  "version" : "2.5.0",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "com.fasterxml.jackson.core",
+  "artifactId" : "jackson-core",
+  "version" : "2.5.3",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "com.fasterxml.jackson.core",
+  "artifactId" : "jackson-databind",
+  "version" : "2.5.3",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "com.github.tomasbjerre",
+  "artifactId" : "java-gitlab-api",
+  "version" : "master",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "commons-io",
+  "artifactId" : "commons-io",
+  "version" : "2.4",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "org.slf4j",
+  "artifactId" : "slf4j-api",
+  "version" : "1.7.22",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
   "groupId" : "se.bjurr.violations",
-  "artifactId" : "violation-comments-to-gitlab-lib",
-  "version" : "1.28",
+  "artifactId" : "violation-comments-lib",
+  "version" : "1.55",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violations-lib",
+  "version" : "1.54",
   "classifier" : null,
   "type" : "jar",
   "scope" : "compile"

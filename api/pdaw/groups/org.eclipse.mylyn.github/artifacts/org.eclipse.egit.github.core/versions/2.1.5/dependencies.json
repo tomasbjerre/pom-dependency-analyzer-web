@@ -1,8 +1,0 @@
-[ {
-  "groupId" : "org.eclipse.mylyn.github",
-  "artifactId" : "org.eclipse.egit.github.core",
-  "version" : "2.1.5",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-} ]

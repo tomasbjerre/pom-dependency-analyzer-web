@@ -113,14 +113,6 @@
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violations-lib",
-  "version" : "1.37"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.38"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
   "version" : "1.39"
 }, {
   "groupId" : "se.bjurr.violations",
@@ -145,47 +137,7 @@
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violations-lib",
-  "version" : "1.44"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.46"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.47"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.48"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
   "version" : "1.5"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.50"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.52"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.54"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.55"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.56"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.57"
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violations-lib",
@@ -193,59 +145,7 @@
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violations-lib",
-  "version" : "1.60"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.61"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.62"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.63"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.64"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.65"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.68"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.69"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
   "version" : "1.7"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.71"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.74"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.77"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.78"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.79"
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violations-lib",
@@ -253,29 +153,5 @@
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violations-lib",
-  "version" : "1.81"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.83"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.85"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.86"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.88"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
   "version" : "1.9"
-}, {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.92"
 } ]

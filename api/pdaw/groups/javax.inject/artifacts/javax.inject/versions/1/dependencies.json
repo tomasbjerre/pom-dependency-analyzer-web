@@ -1,8 +1,0 @@
-[ {
-  "groupId" : "javax.inject",
-  "artifactId" : "javax.inject",
-  "version" : "1",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-} ]

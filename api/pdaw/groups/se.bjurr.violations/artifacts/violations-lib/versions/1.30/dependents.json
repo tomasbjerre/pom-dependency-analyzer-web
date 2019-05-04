@@ -1,7 +1,28 @@
 [ {
   "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.30",
+  "artifactId" : "violation-comments-lib",
+  "version" : "1.40",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.29",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-lib",
+  "version" : "1.31",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-gitlab-lib",
+  "version" : "1.9",
   "classifier" : null,
   "type" : "jar",
   "scope" : "compile"

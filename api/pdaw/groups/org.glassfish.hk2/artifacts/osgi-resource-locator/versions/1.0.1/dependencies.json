@@ -1,8 +1,0 @@
-[ {
-  "groupId" : "org.glassfish.hk2",
-  "artifactId" : "osgi-resource-locator",
-  "version" : "1.0.1",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-} ]

@@ -1,4 +1,0 @@
-[ {
-  "groupId" : "org.glassfish.jersey.inject",
-  "artifactId" : "jersey-hk2"
-} ]

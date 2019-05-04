@@ -1,8 +1,1 @@
-[ {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violation-comments-to-gitlab-maven-plugin",
-  "version" : "1.22",
-  "classifier" : null,
-  "type" : "maven-plugin",
-  "scope" : "compile"
-} ]
+[ ]

@@ -1,8 +1,1 @@
-[ {
-  "groupId" : "se.bjurr.gitchangelog",
-  "artifactId" : "git-changelog-command-line",
-  "version" : "1.34",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-} ]
+[ ]

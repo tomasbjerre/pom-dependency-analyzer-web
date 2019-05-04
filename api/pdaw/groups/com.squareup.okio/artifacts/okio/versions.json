@@ -1,9 +1,0 @@
-[ {
-  "groupId" : "com.squareup.okio",
-  "artifactId" : "okio",
-  "version" : "1.3.0"
-}, {
-  "groupId" : "com.squareup.okio",
-  "artifactId" : "okio",
-  "version" : "1.6.0"
-} ]

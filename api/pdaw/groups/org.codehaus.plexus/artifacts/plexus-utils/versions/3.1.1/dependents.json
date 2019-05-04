@@ -1,8 +1,0 @@
-[ {
-  "groupId" : "org.codehaus.plexus",
-  "artifactId" : "plexus-utils",
-  "version" : "3.1.1",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-} ]

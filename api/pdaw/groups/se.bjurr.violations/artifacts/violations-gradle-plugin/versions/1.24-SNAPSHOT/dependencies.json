@@ -1,7 +1,7 @@
 [ {
   "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-gradle-plugin",
-  "version" : "1.24-SNAPSHOT",
+  "artifactId" : "violations-git-lib",
+  "version" : "1.18",
   "classifier" : null,
   "type" : "jar",
   "scope" : "compile"
