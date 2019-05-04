@@ -1,0 +1,31 @@
+[ {
+  "groupId" : "asm"
+}, {
+  "groupId" : "com.github.spullara.mustache.java"
+}, {
+  "groupId" : "com.google.code.findbugs"
+}, {
+  "groupId" : "com.google.code.gson"
+}, {
+  "groupId" : "com.google.guava"
+}, {
+  "groupId" : "com.jayway.jsonpath"
+}, {
+  "groupId" : "commons-codec"
+}, {
+  "groupId" : "commons-logging"
+}, {
+  "groupId" : "junit"
+}, {
+  "groupId" : "net.minidev"
+}, {
+  "groupId" : "org.apache.httpcomponents"
+}, {
+  "groupId" : "org.assertj"
+}, {
+  "groupId" : "org.hamcrest"
+}, {
+  "groupId" : "org.slf4j"
+}, {
+  "groupId" : "se.bjurr.violations"
+} ]

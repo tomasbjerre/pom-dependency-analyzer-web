@@ -1,0 +1,15 @@
+[ {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.15",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.16",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+} ]

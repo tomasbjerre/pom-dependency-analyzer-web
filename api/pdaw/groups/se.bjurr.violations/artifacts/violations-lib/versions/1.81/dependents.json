@@ -1,0 +1,43 @@
+[ {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.76",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.77",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.77-SNAPSHOT",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.78",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.78-SNAPSHOT",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.79-SNAPSHOT",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+} ]

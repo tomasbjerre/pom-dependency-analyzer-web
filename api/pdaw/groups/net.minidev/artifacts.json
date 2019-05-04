@@ -1,0 +1,7 @@
+[ {
+  "groupId" : "net.minidev",
+  "artifactId" : "asm"
+}, {
+  "groupId" : "net.minidev",
+  "artifactId" : "json-smart"
+} ]

@@ -1,0 +1,16 @@
+[ {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-lib"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violations-git-lib"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violations-gradle-plugin"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violations-lib"
+} ]
