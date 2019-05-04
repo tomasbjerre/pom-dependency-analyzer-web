@@ -1,8 +1,0 @@
-[ {
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-git-lib",
-  "version" : "1.6",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-} ]

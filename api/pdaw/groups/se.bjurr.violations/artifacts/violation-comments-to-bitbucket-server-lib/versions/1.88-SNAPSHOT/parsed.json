@@ -1,8 +1,0 @@
-{
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violation-comments-to-bitbucket-server-lib",
-  "version" : "1.88-SNAPSHOT",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-}
