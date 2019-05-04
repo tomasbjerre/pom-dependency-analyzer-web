@@ -1,0 +1,4 @@
+[ {
+  "groupId" : "javax.enterprise",
+  "artifactId" : "cdi-api"
+} ]

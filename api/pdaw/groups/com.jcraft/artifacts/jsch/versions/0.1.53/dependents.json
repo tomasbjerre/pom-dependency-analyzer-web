@@ -1,0 +1,8 @@
+[ {
+  "groupId" : "com.jcraft",
+  "artifactId" : "jsch",
+  "version" : "0.1.53",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+} ]

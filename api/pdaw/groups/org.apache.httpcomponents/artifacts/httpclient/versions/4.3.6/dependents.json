@@ -1,0 +1,8 @@
+[ {
+  "groupId" : "org.apache.httpcomponents",
+  "artifactId" : "httpclient",
+  "version" : "4.3.6",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+} ]

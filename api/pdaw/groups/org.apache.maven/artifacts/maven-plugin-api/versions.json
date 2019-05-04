@@ -1,0 +1,5 @@
+[ {
+  "groupId" : "org.apache.maven",
+  "artifactId" : "maven-plugin-api",
+  "version" : "3.3.3"
+} ]

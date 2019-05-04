@@ -1,0 +1,9 @@
+[ {
+  "groupId" : "org.apache.httpcomponents",
+  "artifactId" : "httpcore",
+  "version" : "4.1.4"
+}, {
+  "groupId" : "org.apache.httpcomponents",
+  "artifactId" : "httpcore",
+  "version" : "4.3.3"
+} ]

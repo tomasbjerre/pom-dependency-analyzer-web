@@ -1,0 +1,10 @@
+[ {
+  "groupId" : "org.apache.maven",
+  "artifactId" : "maven-artifact"
+}, {
+  "groupId" : "org.apache.maven",
+  "artifactId" : "maven-model"
+}, {
+  "groupId" : "org.apache.maven",
+  "artifactId" : "maven-plugin-api"
+} ]

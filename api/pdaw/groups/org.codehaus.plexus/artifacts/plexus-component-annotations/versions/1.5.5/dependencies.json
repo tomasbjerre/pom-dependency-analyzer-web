@@ -1,0 +1,8 @@
+[ {
+  "groupId" : "org.codehaus.plexus",
+  "artifactId" : "plexus-component-annotations",
+  "version" : "1.5.5",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+} ]

@@ -1,0 +1,5 @@
+[ {
+  "groupId" : "com.squareup.okhttp3",
+  "artifactId" : "okhttp",
+  "version" : "3.2.0"
+} ]

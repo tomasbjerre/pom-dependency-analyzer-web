@@ -1,0 +1,9 @@
+[ {
+  "groupId" : "commons-codec",
+  "artifactId" : "commons-codec",
+  "version" : "1.4"
+}, {
+  "groupId" : "commons-codec",
+  "artifactId" : "commons-codec",
+  "version" : "1.6"
+} ]

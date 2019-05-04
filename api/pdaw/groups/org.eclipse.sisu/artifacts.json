@@ -1,0 +1,7 @@
+[ {
+  "groupId" : "org.eclipse.sisu",
+  "artifactId" : "org.eclipse.sisu.inject"
+}, {
+  "groupId" : "org.eclipse.sisu",
+  "artifactId" : "org.eclipse.sisu.plexus"
+} ]

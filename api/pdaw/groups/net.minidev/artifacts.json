@@ -1,0 +1,10 @@
+[ {
+  "groupId" : "net.minidev",
+  "artifactId" : "accessors-smart"
+}, {
+  "groupId" : "net.minidev",
+  "artifactId" : "asm"
+}, {
+  "groupId" : "net.minidev",
+  "artifactId" : "json-smart"
+} ]

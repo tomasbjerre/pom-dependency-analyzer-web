@@ -1,0 +1,5 @@
+[ {
+  "groupId" : "org.eclipse.sisu",
+  "artifactId" : "org.eclipse.sisu.plexus",
+  "version" : "0.3.0"
+} ]

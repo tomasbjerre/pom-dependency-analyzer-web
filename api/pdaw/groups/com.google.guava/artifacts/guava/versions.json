@@ -1,0 +1,13 @@
+[ {
+  "groupId" : "com.google.guava",
+  "artifactId" : "guava",
+  "version" : "11.0.1"
+}, {
+  "groupId" : "com.google.guava",
+  "artifactId" : "guava",
+  "version" : "16.0.1"
+}, {
+  "groupId" : "com.google.guava",
+  "artifactId" : "guava",
+  "version" : "18.0"
+} ]
