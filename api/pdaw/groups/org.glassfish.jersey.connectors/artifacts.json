@@ -1,0 +1,4 @@
+[ {
+  "groupId" : "org.glassfish.jersey.connectors",
+  "artifactId" : "jersey-apache-connector"
+} ]

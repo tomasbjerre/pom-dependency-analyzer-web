@@ -5,4 +5,11 @@
   "classifier" : null,
   "type" : "jar",
   "scope" : "compile"
+}, {
+  "groupId" : "com.google.code.gson",
+  "artifactId" : "gson",
+  "version" : "2.5",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "test"
 } ]

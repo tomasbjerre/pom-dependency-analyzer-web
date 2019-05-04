@@ -1,0 +1,8 @@
+[ {
+  "groupId" : "org.slf4j",
+  "artifactId" : "slf4j-api",
+  "version" : "1.7.10",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+} ]

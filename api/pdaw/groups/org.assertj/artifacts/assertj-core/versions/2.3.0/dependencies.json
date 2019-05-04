@@ -1,0 +1,8 @@
+[ {
+  "groupId" : "org.assertj",
+  "artifactId" : "assertj-core",
+  "version" : "2.3.0",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "test"
+} ]

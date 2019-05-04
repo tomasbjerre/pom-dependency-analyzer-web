@@ -1,0 +1,5 @@
+[ {
+  "groupId" : "org.mockito",
+  "artifactId" : "mockito-all",
+  "version" : "1.8.5"
+} ]

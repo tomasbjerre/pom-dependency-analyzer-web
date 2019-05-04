@@ -5,5 +5,9 @@
 }, {
   "groupId" : "org.gitlab",
   "artifactId" : "java-gitlab-api",
+  "version" : "4.0.0"
+}, {
+  "groupId" : "org.gitlab",
+  "artifactId" : "java-gitlab-api",
   "version" : "4.1.0"
 } ]

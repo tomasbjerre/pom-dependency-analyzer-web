@@ -1,0 +1,4 @@
+[ {
+  "groupId" : "org.glassfish.jersey.media",
+  "artifactId" : "jersey-media-multipart"
+} ]

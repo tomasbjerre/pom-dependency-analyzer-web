@@ -870,6 +870,20 @@ ul.nav-tabs {
     }
   }
 };
+    defs["Metadata"] = {
+  "required" : [ "key", "value" ],
+  "type" : "object",
+  "properties" : {
+    "key" : {
+      "type" : "string",
+      "example" : "anything"
+    },
+    "value" : {
+      "type" : "string",
+      "example" : "anything"
+    }
+  }
+};
     defs["Version"] = {
   "required" : [ "artifactId", "groupId", "version" ],
   "type" : "object",
@@ -918,6 +932,12 @@ ul.nav-tabs {
                     </li>
                     <li data-group="Default" data-name="getGroupIds" class="">
                       <a href="#api-Default-getGroupIds">getGroupIds</a>
+                    </li>
+                    <li data-group="Default" data-name="getMetadata" class="">
+                      <a href="#api-Default-getMetadata">getMetadata</a>
+                    </li>
+                    <li data-group="Default" data-name="getParsed" class="">
+                      <a href="#api-Default-getParsed">getParsed</a>
                     </li>
                     <li data-group="Default" data-name="getVersions" class="">
                       <a href="#api-Default-getVersions">getVersions</a>
@@ -2356,6 +2376,797 @@ pub fn main() {
                                     </script>
                                   </div>
                                   <input id='responses-Default-getGroupIds-200-schema-data' type='hidden' value=''></input>
+                                </div>
+                            </div>
+                        </article>
+                      </div>
+                      <hr>
+                    <div id="api-Default-getMetadata">
+                      <article id="api-Default-getMetadata-0" data-group="User" data-name="getMetadata" data-version="0">
+                        <div class="pull-left">
+                          <h1>getMetadata</h1>
+                          <p>Get version metadata</p>
+                        </div>
+                        <div class="pull-right"></div>
+                        <div class="clearfix"></div>
+                        <p></p>
+                        <p class="marked"></p>
+                        <p></p>
+                        <br />
+                        <pre class="prettyprint language-html prettyprinted" data-type="get"><code><span class="pln">/pdaw/groups/{groupId}/artifacts/{artifactId}/versions/{version}/metadata.json</span></code></pre>
+                        <p>
+                          <h3>Usage and SDK Samples</h3>
+                        </p>
+                        <ul class="nav nav-tabs nav-tabs-examples">
+                          <li class="active"><a href="#examples-Default-getMetadata-0-curl">Curl</a></li>
+                          <li class=""><a href="#examples-Default-getMetadata-0-java">Java</a></li>
+                          <li class=""><a href="#examples-Default-getMetadata-0-android">Android</a></li>
+                          <!--<li class=""><a href="#examples-Default-getMetadata-0-groovy">Groovy</a></li>-->
+                          <li class=""><a href="#examples-Default-getMetadata-0-objc">Obj-C</a></li>
+                          <li class=""><a href="#examples-Default-getMetadata-0-javascript">JavaScript</a></li>
+                          <!--<li class=""><a href="#examples-Default-getMetadata-0-angular">Angular</a></li>-->
+                          <li class=""><a href="#examples-Default-getMetadata-0-csharp">C#</a></li>
+                          <li class=""><a href="#examples-Default-getMetadata-0-php">PHP</a></li>
+                          <li class=""><a href="#examples-Default-getMetadata-0-perl">Perl</a></li>
+                          <li class=""><a href="#examples-Default-getMetadata-0-python">Python</a></li>
+                          <li class=""><a href="#examples-Default-getMetadata-0-rust">Rust</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="examples-Default-getMetadata-0-curl">
+                            <pre class="prettyprint"><code class="language-bsh">curl -X GET "https://tomasbjerre.github.io/pom-dependency-analyzer-web/api/pdaw/groups/{groupId}/artifacts/{artifactId}/versions/{version}/metadata.json"</code></pre>
+                          </div>
+                          <div class="tab-pane" id="examples-Default-getMetadata-0-java">
+                            <pre class="prettyprint"><code class="language-java">import org.openapitools.client.*;
+import org.openapitools.client.auth.*;
+import org.openapitools.client.model.*;
+import org.openapitools.client.api.DefaultApi;
+
+import java.io.File;
+import java.util.*;
+
+public class DefaultApiExample {
+
+    public static void main(String[] args) {
+        
+        DefaultApi apiInstance = new DefaultApi();
+        String groupId = groupId_example; // String | The groupId
+        String artifactId = artifactId_example; // String | The artifactId
+        String version = version_example; // String | The version
+        try {
+            array[Metadata] result = apiInstance.getMetadata(groupId, artifactId, version);
+            System.out.println(result);
+        } catch (ApiException e) {
+            System.err.println("Exception when calling DefaultApi#getMetadata");
+            e.printStackTrace();
+        }
+    }
+}</code></pre>
+                          </div>
+
+                          <div class="tab-pane" id="examples-Default-getMetadata-0-android">
+                            <pre class="prettyprint"><code class="language-java">import org.openapitools.client.api.DefaultApi;
+
+public class DefaultApiExample {
+
+    public static void main(String[] args) {
+        DefaultApi apiInstance = new DefaultApi();
+        String groupId = groupId_example; // String | The groupId
+        String artifactId = artifactId_example; // String | The artifactId
+        String version = version_example; // String | The version
+        try {
+            array[Metadata] result = apiInstance.getMetadata(groupId, artifactId, version);
+            System.out.println(result);
+        } catch (ApiException e) {
+            System.err.println("Exception when calling DefaultApi#getMetadata");
+            e.printStackTrace();
+        }
+    }
+}</code></pre>
+                          </div>
+  <!--
+  <div class="tab-pane" id="examples-Default-getMetadata-0-groovy">
+  <pre class="prettyprint language-json prettyprinted" data-type="json"><code>Coming Soon!</code></pre>
+  </div> -->
+                            <div class="tab-pane" id="examples-Default-getMetadata-0-objc">
+                              <pre class="prettyprint"><code class="language-cpp">String *groupId = groupId_example; // The groupId (default to null)
+String *artifactId = artifactId_example; // The artifactId (default to null)
+String *version = version_example; // The version (default to null)
+
+DefaultApi *apiInstance = [[DefaultApi alloc] init];
+
+// Get version metadata
+[apiInstance getMetadataWith:groupId
+    artifactId:artifactId
+    version:version
+              completionHandler: ^(array[Metadata] output, NSError* error) {
+                            if (output) {
+                                NSLog(@"%@", output);
+                            }
+                            if (error) {
+                                NSLog(@"Error: %@", error);
+                            }
+                        }];
+</code></pre>
+                            </div>
+
+                            <div class="tab-pane" id="examples-Default-getMetadata-0-javascript">
+                              <pre class="prettyprint"><code class="language-js">var PomDependencyAnalyzerWeb = require('pom_dependency_analyzer_web');
+
+var api = new PomDependencyAnalyzerWeb.DefaultApi()
+var groupId = groupId_example; // {String} The groupId
+var artifactId = artifactId_example; // {String} The artifactId
+var version = version_example; // {String} The version
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+api.getMetadata(groupId, artifactId, version, callback);
+</code></pre>
+                            </div>
+
+                            <!--<div class="tab-pane" id="examples-Default-getMetadata-0-angular">
+              <pre class="prettyprint language-json prettyprinted" data-type="json"><code>Coming Soon!</code></pre>
+            </div>-->
+                            <div class="tab-pane" id="examples-Default-getMetadata-0-csharp">
+                              <pre class="prettyprint"><code class="language-cs">using System;
+using System.Diagnostics;
+using Org.OpenAPITools.Api;
+using Org.OpenAPITools.Client;
+using Org.OpenAPITools.Model;
+
+namespace Example
+{
+    public class getMetadataExample
+    {
+        public void main()
+        {
+            
+            var apiInstance = new DefaultApi();
+            var groupId = groupId_example;  // String | The groupId (default to null)
+            var artifactId = artifactId_example;  // String | The artifactId (default to null)
+            var version = version_example;  // String | The version (default to null)
+
+            try
+            {
+                // Get version metadata
+                array[Metadata] result = apiInstance.getMetadata(groupId, artifactId, version);
+                Debug.WriteLine(result);
+            }
+            catch (Exception e)
+            {
+                Debug.Print("Exception when calling DefaultApi.getMetadata: " + e.Message );
+            }
+        }
+    }
+}
+</code></pre>
+                            </div>
+
+                            <div class="tab-pane" id="examples-Default-getMetadata-0-php">
+                              <pre class="prettyprint"><code class="language-php"><&#63;php
+require_once(__DIR__ . '/vendor/autoload.php');
+
+$api_instance = new OpenAPITools\Client\Api\DefaultApi();
+$groupId = groupId_example; // String | The groupId
+$artifactId = artifactId_example; // String | The artifactId
+$version = version_example; // String | The version
+
+try {
+    $result = $api_instance->getMetadata($groupId, $artifactId, $version);
+    print_r($result);
+} catch (Exception $e) {
+    echo 'Exception when calling DefaultApi->getMetadata: ', $e->getMessage(), PHP_EOL;
+}
+?></code></pre>
+                            </div>
+
+                            <div class="tab-pane" id="examples-Default-getMetadata-0-perl">
+                              <pre class="prettyprint"><code class="language-perl">use Data::Dumper;
+use WWW::OPenAPIClient::Configuration;
+use WWW::OPenAPIClient::DefaultApi;
+
+my $api_instance = WWW::OPenAPIClient::DefaultApi->new();
+my $groupId = groupId_example; # String | The groupId
+my $artifactId = artifactId_example; # String | The artifactId
+my $version = version_example; # String | The version
+
+eval { 
+    my $result = $api_instance->getMetadata(groupId => $groupId, artifactId => $artifactId, version => $version);
+    print Dumper($result);
+};
+if ($@) {
+    warn "Exception when calling DefaultApi->getMetadata: $@\n";
+}</code></pre>
+                            </div>
+
+                            <div class="tab-pane" id="examples-Default-getMetadata-0-python">
+                              <pre class="prettyprint"><code class="language-python">from __future__ import print_statement
+import time
+import openapi_client
+from openapi_client.rest import ApiException
+from pprint import pprint
+
+# create an instance of the API class
+api_instance = openapi_client.DefaultApi()
+groupId = groupId_example # String | The groupId (default to null)
+artifactId = artifactId_example # String | The artifactId (default to null)
+version = version_example # String | The version (default to null)
+
+try: 
+    # Get version metadata
+    api_response = api_instance.get_metadata(groupId, artifactId, version)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->getMetadata: %s\n" % e)</code></pre>
+                            </div>
+
+                            <div class="tab-pane" id="examples-Default-getMetadata-0-rust">
+                              <pre class="prettyprint"><code class="language-rust">extern crate DefaultApi;
+
+pub fn main() {
+    let groupId = groupId_example; // String
+    let artifactId = artifactId_example; // String
+    let version = version_example; // String
+
+    let mut context = DefaultApi::Context::default();
+    let result = client.getMetadata(groupId, artifactId, version, &context).wait();
+    println!("{:?}", result);
+
+}
+</code></pre>
+                            </div>
+                          </div>
+
+                          <h2>Scopes</h2>
+                          <table>
+                            
+                          </table>
+
+                          <h2>Parameters</h2>
+
+                            <div class="methodsubtabletitle">Path parameters</div>
+                            <table id="methodsubtable">
+                                <tr>
+                                  <th width="150px">Name</th>
+                                  <th>Description</th>
+                                </tr>
+                                  <tr><td style="width:150px;">groupId*</td>
+<td>
+
+
+    <div id="d2e199_getMetadata_groupId">
+        <div class="json-schema-view">
+            <div class="primitive">
+                <span class="type">
+                    String
+                </span>
+
+                    <div class="inner description marked">
+The groupId
+                    </div>
+            </div>
+                <div class="inner required">
+                    Required
+                </div>
+        </div>
+    </div>
+</td>
+</tr>
+
+                                  <tr><td style="width:150px;">artifactId*</td>
+<td>
+
+
+    <div id="d2e199_getMetadata_artifactId">
+        <div class="json-schema-view">
+            <div class="primitive">
+                <span class="type">
+                    String
+                </span>
+
+                    <div class="inner description marked">
+The artifactId
+                    </div>
+            </div>
+                <div class="inner required">
+                    Required
+                </div>
+        </div>
+    </div>
+</td>
+</tr>
+
+                                  <tr><td style="width:150px;">version*</td>
+<td>
+
+
+    <div id="d2e199_getMetadata_version">
+        <div class="json-schema-view">
+            <div class="primitive">
+                <span class="type">
+                    String
+                </span>
+
+                    <div class="inner description marked">
+The version
+                    </div>
+            </div>
+                <div class="inner required">
+                    Required
+                </div>
+        </div>
+    </div>
+</td>
+</tr>
+
+                            </table>
+
+
+
+
+
+                          <h2>Responses</h2>
+                            <h3 id="examples-Default-getMetadata-title-200"></h3>
+                            <p id="examples-Default-getMetadata-description-200" class="marked"></p>
+                            <script>
+                              var responseDefault200_description = `successful operation`;
+                              var responseDefault200_description_break = responseDefault200_description.indexOf('\n');
+                              if (responseDefault200_description_break == -1) {
+                                $("#examples-Default-getMetadata-title-200").text("Status: 200 - " + responseDefault200_description);
+                              } else {
+                                $("#examples-Default-getMetadata-title-200").text("Status: 200 - " + responseDefault200_description.substring(0, responseDefault200_description_break));
+                                $("#examples-Default-getMetadata-description-200").html(responseDefault200_description.substring(responseDefault200_description_break));
+                              }
+                            </script>
+
+
+                            <ul id="responses-detail-Default-getMetadata-200" class="nav nav-tabs nav-tabs-examples" >
+                                <li class="active">
+                                  <a data-toggle="tab" href="#responses-Default-getMetadata-200-schema">Schema</a>
+                                </li>
+
+
+
+
+                            </ul>
+
+
+                            <div class="tab-content" id="responses-Default-getMetadata-200-wrapper" style='margin-bottom: 10px;'>
+                                <div class="tab-pane active" id="responses-Default-getMetadata-200-schema">
+                                  <div id="responses-Default-getMetadata-schema-200" class="exampleStyle">
+                                    <script>
+                                      $(document).ready(function() {
+                                        var schemaWrapper = {
+  "description" : "successful operation",
+  "content" : {
+    "application/json" : {
+      "schema" : {
+        "type" : "array",
+        "items" : {
+          "$ref" : "#/components/schemas/Metadata"
+        }
+      }
+    }
+  }
+};
+                                        var schema = schemaWrapper.schema;
+                                        if (schema.$ref != null) {
+                                          schema = defsParser.$refs.get(schema.$ref);
+                                        } else {
+                                          schemaWrapper.definitions = Object.assign({}, defs);
+                                          $RefParser.dereference(schemaWrapper).catch(function(err) {
+                                            console.log(err);
+                                          });
+                                        }
+
+                                        var view = new JSONSchemaView(schema, 3);
+                                        $('#responses-Default-getMetadata-200-schema-data').val(JSON.stringify(schema));
+                                        var result = $('#responses-Default-getMetadata-schema-200');
+                                        result.empty();
+                                        result.append(view.render());
+                                      });
+                                    </script>
+                                  </div>
+                                  <input id='responses-Default-getMetadata-200-schema-data' type='hidden' value=''></input>
+                                </div>
+                            </div>
+                        </article>
+                      </div>
+                      <hr>
+                    <div id="api-Default-getParsed">
+                      <article id="api-Default-getParsed-0" data-group="User" data-name="getParsed" data-version="0">
+                        <div class="pull-left">
+                          <h1>getParsed</h1>
+                          <p>Get version parsed</p>
+                        </div>
+                        <div class="pull-right"></div>
+                        <div class="clearfix"></div>
+                        <p></p>
+                        <p class="marked"></p>
+                        <p></p>
+                        <br />
+                        <pre class="prettyprint language-html prettyprinted" data-type="get"><code><span class="pln">/pdaw/groups/{groupId}/artifacts/{artifactId}/versions/{version}/parsed.json</span></code></pre>
+                        <p>
+                          <h3>Usage and SDK Samples</h3>
+                        </p>
+                        <ul class="nav nav-tabs nav-tabs-examples">
+                          <li class="active"><a href="#examples-Default-getParsed-0-curl">Curl</a></li>
+                          <li class=""><a href="#examples-Default-getParsed-0-java">Java</a></li>
+                          <li class=""><a href="#examples-Default-getParsed-0-android">Android</a></li>
+                          <!--<li class=""><a href="#examples-Default-getParsed-0-groovy">Groovy</a></li>-->
+                          <li class=""><a href="#examples-Default-getParsed-0-objc">Obj-C</a></li>
+                          <li class=""><a href="#examples-Default-getParsed-0-javascript">JavaScript</a></li>
+                          <!--<li class=""><a href="#examples-Default-getParsed-0-angular">Angular</a></li>-->
+                          <li class=""><a href="#examples-Default-getParsed-0-csharp">C#</a></li>
+                          <li class=""><a href="#examples-Default-getParsed-0-php">PHP</a></li>
+                          <li class=""><a href="#examples-Default-getParsed-0-perl">Perl</a></li>
+                          <li class=""><a href="#examples-Default-getParsed-0-python">Python</a></li>
+                          <li class=""><a href="#examples-Default-getParsed-0-rust">Rust</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="examples-Default-getParsed-0-curl">
+                            <pre class="prettyprint"><code class="language-bsh">curl -X GET "https://tomasbjerre.github.io/pom-dependency-analyzer-web/api/pdaw/groups/{groupId}/artifacts/{artifactId}/versions/{version}/parsed.json"</code></pre>
+                          </div>
+                          <div class="tab-pane" id="examples-Default-getParsed-0-java">
+                            <pre class="prettyprint"><code class="language-java">import org.openapitools.client.*;
+import org.openapitools.client.auth.*;
+import org.openapitools.client.model.*;
+import org.openapitools.client.api.DefaultApi;
+
+import java.io.File;
+import java.util.*;
+
+public class DefaultApiExample {
+
+    public static void main(String[] args) {
+        
+        DefaultApi apiInstance = new DefaultApi();
+        String groupId = groupId_example; // String | The groupId
+        String artifactId = artifactId_example; // String | The artifactId
+        String version = version_example; // String | The version
+        try {
+            Dependency result = apiInstance.getParsed(groupId, artifactId, version);
+            System.out.println(result);
+        } catch (ApiException e) {
+            System.err.println("Exception when calling DefaultApi#getParsed");
+            e.printStackTrace();
+        }
+    }
+}</code></pre>
+                          </div>
+
+                          <div class="tab-pane" id="examples-Default-getParsed-0-android">
+                            <pre class="prettyprint"><code class="language-java">import org.openapitools.client.api.DefaultApi;
+
+public class DefaultApiExample {
+
+    public static void main(String[] args) {
+        DefaultApi apiInstance = new DefaultApi();
+        String groupId = groupId_example; // String | The groupId
+        String artifactId = artifactId_example; // String | The artifactId
+        String version = version_example; // String | The version
+        try {
+            Dependency result = apiInstance.getParsed(groupId, artifactId, version);
+            System.out.println(result);
+        } catch (ApiException e) {
+            System.err.println("Exception when calling DefaultApi#getParsed");
+            e.printStackTrace();
+        }
+    }
+}</code></pre>
+                          </div>
+  <!--
+  <div class="tab-pane" id="examples-Default-getParsed-0-groovy">
+  <pre class="prettyprint language-json prettyprinted" data-type="json"><code>Coming Soon!</code></pre>
+  </div> -->
+                            <div class="tab-pane" id="examples-Default-getParsed-0-objc">
+                              <pre class="prettyprint"><code class="language-cpp">String *groupId = groupId_example; // The groupId (default to null)
+String *artifactId = artifactId_example; // The artifactId (default to null)
+String *version = version_example; // The version (default to null)
+
+DefaultApi *apiInstance = [[DefaultApi alloc] init];
+
+// Get version parsed
+[apiInstance getParsedWith:groupId
+    artifactId:artifactId
+    version:version
+              completionHandler: ^(Dependency output, NSError* error) {
+                            if (output) {
+                                NSLog(@"%@", output);
+                            }
+                            if (error) {
+                                NSLog(@"Error: %@", error);
+                            }
+                        }];
+</code></pre>
+                            </div>
+
+                            <div class="tab-pane" id="examples-Default-getParsed-0-javascript">
+                              <pre class="prettyprint"><code class="language-js">var PomDependencyAnalyzerWeb = require('pom_dependency_analyzer_web');
+
+var api = new PomDependencyAnalyzerWeb.DefaultApi()
+var groupId = groupId_example; // {String} The groupId
+var artifactId = artifactId_example; // {String} The artifactId
+var version = version_example; // {String} The version
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+api.getParsed(groupId, artifactId, version, callback);
+</code></pre>
+                            </div>
+
+                            <!--<div class="tab-pane" id="examples-Default-getParsed-0-angular">
+              <pre class="prettyprint language-json prettyprinted" data-type="json"><code>Coming Soon!</code></pre>
+            </div>-->
+                            <div class="tab-pane" id="examples-Default-getParsed-0-csharp">
+                              <pre class="prettyprint"><code class="language-cs">using System;
+using System.Diagnostics;
+using Org.OpenAPITools.Api;
+using Org.OpenAPITools.Client;
+using Org.OpenAPITools.Model;
+
+namespace Example
+{
+    public class getParsedExample
+    {
+        public void main()
+        {
+            
+            var apiInstance = new DefaultApi();
+            var groupId = groupId_example;  // String | The groupId (default to null)
+            var artifactId = artifactId_example;  // String | The artifactId (default to null)
+            var version = version_example;  // String | The version (default to null)
+
+            try
+            {
+                // Get version parsed
+                Dependency result = apiInstance.getParsed(groupId, artifactId, version);
+                Debug.WriteLine(result);
+            }
+            catch (Exception e)
+            {
+                Debug.Print("Exception when calling DefaultApi.getParsed: " + e.Message );
+            }
+        }
+    }
+}
+</code></pre>
+                            </div>
+
+                            <div class="tab-pane" id="examples-Default-getParsed-0-php">
+                              <pre class="prettyprint"><code class="language-php"><&#63;php
+require_once(__DIR__ . '/vendor/autoload.php');
+
+$api_instance = new OpenAPITools\Client\Api\DefaultApi();
+$groupId = groupId_example; // String | The groupId
+$artifactId = artifactId_example; // String | The artifactId
+$version = version_example; // String | The version
+
+try {
+    $result = $api_instance->getParsed($groupId, $artifactId, $version);
+    print_r($result);
+} catch (Exception $e) {
+    echo 'Exception when calling DefaultApi->getParsed: ', $e->getMessage(), PHP_EOL;
+}
+?></code></pre>
+                            </div>
+
+                            <div class="tab-pane" id="examples-Default-getParsed-0-perl">
+                              <pre class="prettyprint"><code class="language-perl">use Data::Dumper;
+use WWW::OPenAPIClient::Configuration;
+use WWW::OPenAPIClient::DefaultApi;
+
+my $api_instance = WWW::OPenAPIClient::DefaultApi->new();
+my $groupId = groupId_example; # String | The groupId
+my $artifactId = artifactId_example; # String | The artifactId
+my $version = version_example; # String | The version
+
+eval { 
+    my $result = $api_instance->getParsed(groupId => $groupId, artifactId => $artifactId, version => $version);
+    print Dumper($result);
+};
+if ($@) {
+    warn "Exception when calling DefaultApi->getParsed: $@\n";
+}</code></pre>
+                            </div>
+
+                            <div class="tab-pane" id="examples-Default-getParsed-0-python">
+                              <pre class="prettyprint"><code class="language-python">from __future__ import print_statement
+import time
+import openapi_client
+from openapi_client.rest import ApiException
+from pprint import pprint
+
+# create an instance of the API class
+api_instance = openapi_client.DefaultApi()
+groupId = groupId_example # String | The groupId (default to null)
+artifactId = artifactId_example # String | The artifactId (default to null)
+version = version_example # String | The version (default to null)
+
+try: 
+    # Get version parsed
+    api_response = api_instance.get_parsed(groupId, artifactId, version)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling DefaultApi->getParsed: %s\n" % e)</code></pre>
+                            </div>
+
+                            <div class="tab-pane" id="examples-Default-getParsed-0-rust">
+                              <pre class="prettyprint"><code class="language-rust">extern crate DefaultApi;
+
+pub fn main() {
+    let groupId = groupId_example; // String
+    let artifactId = artifactId_example; // String
+    let version = version_example; // String
+
+    let mut context = DefaultApi::Context::default();
+    let result = client.getParsed(groupId, artifactId, version, &context).wait();
+    println!("{:?}", result);
+
+}
+</code></pre>
+                            </div>
+                          </div>
+
+                          <h2>Scopes</h2>
+                          <table>
+                            
+                          </table>
+
+                          <h2>Parameters</h2>
+
+                            <div class="methodsubtabletitle">Path parameters</div>
+                            <table id="methodsubtable">
+                                <tr>
+                                  <th width="150px">Name</th>
+                                  <th>Description</th>
+                                </tr>
+                                  <tr><td style="width:150px;">groupId*</td>
+<td>
+
+
+    <div id="d2e199_getParsed_groupId">
+        <div class="json-schema-view">
+            <div class="primitive">
+                <span class="type">
+                    String
+                </span>
+
+                    <div class="inner description marked">
+The groupId
+                    </div>
+            </div>
+                <div class="inner required">
+                    Required
+                </div>
+        </div>
+    </div>
+</td>
+</tr>
+
+                                  <tr><td style="width:150px;">artifactId*</td>
+<td>
+
+
+    <div id="d2e199_getParsed_artifactId">
+        <div class="json-schema-view">
+            <div class="primitive">
+                <span class="type">
+                    String
+                </span>
+
+                    <div class="inner description marked">
+The artifactId
+                    </div>
+            </div>
+                <div class="inner required">
+                    Required
+                </div>
+        </div>
+    </div>
+</td>
+</tr>
+
+                                  <tr><td style="width:150px;">version*</td>
+<td>
+
+
+    <div id="d2e199_getParsed_version">
+        <div class="json-schema-view">
+            <div class="primitive">
+                <span class="type">
+                    String
+                </span>
+
+                    <div class="inner description marked">
+The version
+                    </div>
+            </div>
+                <div class="inner required">
+                    Required
+                </div>
+        </div>
+    </div>
+</td>
+</tr>
+
+                            </table>
+
+
+
+
+
+                          <h2>Responses</h2>
+                            <h3 id="examples-Default-getParsed-title-200"></h3>
+                            <p id="examples-Default-getParsed-description-200" class="marked"></p>
+                            <script>
+                              var responseDefault200_description = `successful operation`;
+                              var responseDefault200_description_break = responseDefault200_description.indexOf('\n');
+                              if (responseDefault200_description_break == -1) {
+                                $("#examples-Default-getParsed-title-200").text("Status: 200 - " + responseDefault200_description);
+                              } else {
+                                $("#examples-Default-getParsed-title-200").text("Status: 200 - " + responseDefault200_description.substring(0, responseDefault200_description_break));
+                                $("#examples-Default-getParsed-description-200").html(responseDefault200_description.substring(responseDefault200_description_break));
+                              }
+                            </script>
+
+
+                            <ul id="responses-detail-Default-getParsed-200" class="nav nav-tabs nav-tabs-examples" >
+                                <li class="active">
+                                  <a data-toggle="tab" href="#responses-Default-getParsed-200-schema">Schema</a>
+                                </li>
+
+
+
+
+                            </ul>
+
+
+                            <div class="tab-content" id="responses-Default-getParsed-200-wrapper" style='margin-bottom: 10px;'>
+                                <div class="tab-pane active" id="responses-Default-getParsed-200-schema">
+                                  <div id="responses-Default-getParsed-schema-200" class="exampleStyle">
+                                    <script>
+                                      $(document).ready(function() {
+                                        var schemaWrapper = {
+  "description" : "successful operation",
+  "content" : {
+    "application/json" : {
+      "schema" : {
+        "$ref" : "#/components/schemas/Dependency"
+      }
+    }
+  }
+};
+                                        var schema = schemaWrapper.schema;
+                                        if (schema.$ref != null) {
+                                          schema = defsParser.$refs.get(schema.$ref);
+                                        } else {
+                                          schemaWrapper.definitions = Object.assign({}, defs);
+                                          $RefParser.dereference(schemaWrapper).catch(function(err) {
+                                            console.log(err);
+                                          });
+                                        }
+
+                                        var view = new JSONSchemaView(schema, 3);
+                                        $('#responses-Default-getParsed-200-schema-data').val(JSON.stringify(schema));
+                                        var result = $('#responses-Default-getParsed-schema-200');
+                                        result.empty();
+                                        result.append(view.render());
+                                      });
+                                    </script>
+                                  </div>
+                                  <input id='responses-Default-getParsed-200-schema-data' type='hidden' value=''></input>
                                 </div>
                             </div>
                         </article>

@@ -1,0 +1,8 @@
+[ {
+  "groupId" : "com.github.spullara.mustache.java",
+  "artifactId" : "compiler",
+  "version" : "0.9.5",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+} ]

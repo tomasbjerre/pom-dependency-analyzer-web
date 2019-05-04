@@ -1,0 +1,8 @@
+[ {
+  "groupId" : "com.fasterxml.jackson.module",
+  "artifactId" : "jackson-module-jaxb-annotations",
+  "version" : "2.9.8",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+} ]

@@ -1,0 +1,8 @@
+[ {
+  "groupId" : "org.mockito",
+  "artifactId" : "mockito-all",
+  "version" : "1.8.5",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "test"
+} ]

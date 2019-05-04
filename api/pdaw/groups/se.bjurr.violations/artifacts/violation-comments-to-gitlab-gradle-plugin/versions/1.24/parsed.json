@@ -1,0 +1,8 @@
+{
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-gitlab-gradle-plugin",
+  "version" : "1.24",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}
