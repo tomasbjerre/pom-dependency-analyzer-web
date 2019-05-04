@@ -1,0 +1,65 @@
+[ {
+  "groupId" : "asm"
+}, {
+  "groupId" : "com.fasterxml.jackson.core"
+}, {
+  "groupId" : "com.github.spullara.mustache.java"
+}, {
+  "groupId" : "com.google.code.findbugs"
+}, {
+  "groupId" : "com.google.code.gson"
+}, {
+  "groupId" : "com.google.guava"
+}, {
+  "groupId" : "com.googlecode.javaewah"
+}, {
+  "groupId" : "com.jayway.jsonpath"
+}, {
+  "groupId" : "com.jcraft"
+}, {
+  "groupId" : "com.squareup.okhttp"
+}, {
+  "groupId" : "com.squareup.okhttp3"
+}, {
+  "groupId" : "com.squareup.okio"
+}, {
+  "groupId" : "com.squareup.retrofit2"
+}, {
+  "groupId" : "commons-codec"
+}, {
+  "groupId" : "commons-io"
+}, {
+  "groupId" : "commons-logging"
+}, {
+  "groupId" : "javax.annotation"
+}, {
+  "groupId" : "javax.enterprise"
+}, {
+  "groupId" : "javax.inject"
+}, {
+  "groupId" : "net.minidev"
+}, {
+  "groupId" : "org.apache.httpcomponents"
+}, {
+  "groupId" : "org.apache.maven"
+}, {
+  "groupId" : "org.apache.maven.plugin-tools"
+}, {
+  "groupId" : "org.codehaus.plexus"
+}, {
+  "groupId" : "org.eclipse.jdt"
+}, {
+  "groupId" : "org.eclipse.jgit"
+}, {
+  "groupId" : "org.eclipse.sisu"
+}, {
+  "groupId" : "org.gitlab"
+}, {
+  "groupId" : "org.ow2.asm"
+}, {
+  "groupId" : "org.slf4j"
+}, {
+  "groupId" : "se.bjurr.gitchangelog"
+}, {
+  "groupId" : "se.softhouse"
+} ]
