@@ -5,11 +5,23 @@
 }, {
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.0"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.1"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
   "version" : "1.10"
 }, {
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-gradle-plugin",
   "version" : "1.11"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.12"
 }, {
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-gradle-plugin",
@@ -21,7 +33,19 @@
 }, {
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.15"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
   "version" : "1.16"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.17"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.18"
 }, {
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-gradle-plugin",
@@ -37,7 +61,19 @@
 }, {
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.21"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.22"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
   "version" : "1.23"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.24"
 }, {
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-gradle-plugin",
@@ -45,7 +81,19 @@
 }, {
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.26"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
   "version" : "1.27"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.28"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.29"
 }, {
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-gradle-plugin",
@@ -54,6 +102,14 @@
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-gradle-plugin",
   "version" : "1.30"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.31"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.32"
 }, {
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-gradle-plugin",
@@ -74,6 +130,10 @@
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-gradle-plugin",
   "version" : "1.37"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.38"
 }, {
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-gradle-plugin",
@@ -105,11 +165,23 @@
 }, {
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.46"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
   "version" : "1.47"
 }, {
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.48"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
   "version" : "1.49"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.5"
 }, {
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-gradle-plugin",
@@ -125,7 +197,23 @@
 }, {
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.53"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.54"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
   "version" : "1.55"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.56"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.57"
 }, {
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-gradle-plugin",
@@ -146,6 +234,14 @@
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-gradle-plugin",
   "version" : "1.61-SNAPSHOT"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.7"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin",
+  "version" : "1.8"
 }, {
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-gradle-plugin",
