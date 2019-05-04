@@ -1,4 +1,11 @@
 [ {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.13",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",
   "version" : "1.0",

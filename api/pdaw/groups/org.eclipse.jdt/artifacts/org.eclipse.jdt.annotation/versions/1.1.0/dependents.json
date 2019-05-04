@@ -1,0 +1,29 @@
+[ {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.13",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.2",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.6",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.9",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+} ]

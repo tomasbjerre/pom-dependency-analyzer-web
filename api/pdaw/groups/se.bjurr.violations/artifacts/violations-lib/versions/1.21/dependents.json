@@ -15,6 +15,13 @@
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-github-gradle-plugin",
+  "version" : "1.19",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-gradle-plugin",
   "version" : "1.20",
   "classifier" : null,
   "type" : "jar",
@@ -25,5 +32,12 @@
   "version" : "1.20",
   "classifier" : null,
   "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-maven-plugin",
+  "version" : "1.17",
+  "classifier" : null,
+  "type" : "maven-plugin",
   "scope" : "compile"
 } ]

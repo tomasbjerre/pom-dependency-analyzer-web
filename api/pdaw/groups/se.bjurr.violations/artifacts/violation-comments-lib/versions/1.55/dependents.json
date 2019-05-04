@@ -8,6 +8,13 @@
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-github-gradle-plugin",
+  "version" : "1.39",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-gradle-plugin",
   "version" : "1.40",
   "classifier" : null,
   "type" : "jar",

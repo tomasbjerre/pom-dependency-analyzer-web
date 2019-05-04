@@ -149,6 +149,10 @@
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-github-lib",
+  "version" : "1.44"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-lib",
   "version" : "1.45"
 }, {
   "groupId" : "se.bjurr.violations",

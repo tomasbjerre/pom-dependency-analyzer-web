@@ -1,0 +1,50 @@
+[ {
+  "groupId" : "com.github.spullara.mustache.java",
+  "artifactId" : "compiler",
+  "version" : "0.9.5",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "com.google.code.gson",
+  "artifactId" : "gson",
+  "version" : "2.2.2",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "org.eclipse.mylyn.github",
+  "artifactId" : "org.eclipse.egit.github.core",
+  "version" : "2.1.5",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "org.slf4j",
+  "artifactId" : "slf4j-api",
+  "version" : "1.7.22",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-lib",
+  "version" : "1.59",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-lib",
+  "version" : "1.50",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violations-lib",
+  "version" : "1.57",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+} ]

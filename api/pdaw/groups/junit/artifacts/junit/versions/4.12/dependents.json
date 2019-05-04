@@ -1,4 +1,123 @@
 [ {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.13",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.2",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.20",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.33",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.35",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.37",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.40",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.41",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.44",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.51",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.55",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.58",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.6",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.61",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.65",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.69",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.9",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-lib",
   "version" : "1.17",
@@ -861,6 +980,69 @@
   "scope" : "compile"
 }, {
   "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-maven-plugin",
+  "version" : "1.49",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-maven-plugin",
+  "version" : "1.50",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-maven-plugin",
+  "version" : "1.51",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-maven-plugin",
+  "version" : "1.52",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-maven-plugin",
+  "version" : "1.52-SNAPSHOT",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-maven-plugin",
+  "version" : "1.53",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-maven-plugin",
+  "version" : "1.53-SNAPSHOT",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-maven-plugin",
+  "version" : "1.54",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-maven-plugin",
+  "version" : "1.54-SNAPSHOT",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-gitlab-lib",
   "version" : "1.0",
   "classifier" : null,
@@ -1418,5 +1600,89 @@
   "version" : "1.9",
   "classifier" : null,
   "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violations-maven-plugin",
+  "version" : "1.14",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violations-maven-plugin",
+  "version" : "1.15",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violations-maven-plugin",
+  "version" : "1.15-SNAPSHOT",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violations-maven-plugin",
+  "version" : "1.16",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violations-maven-plugin",
+  "version" : "1.16-SNAPSHOT",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violations-maven-plugin",
+  "version" : "1.17",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violations-maven-plugin",
+  "version" : "1.17-SNAPSHOT",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violations-maven-plugin",
+  "version" : "1.18",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violations-maven-plugin",
+  "version" : "1.18-SNAPSHOT",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violations-maven-plugin",
+  "version" : "1.19",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violations-maven-plugin",
+  "version" : "1.19-SNAPSHOT",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violations-maven-plugin",
+  "version" : "1.20-SNAPSHOT",
+  "classifier" : null,
+  "type" : "maven-plugin",
   "scope" : "compile"
 } ]

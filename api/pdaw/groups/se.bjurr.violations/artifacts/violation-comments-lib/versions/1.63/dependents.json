@@ -7,10 +7,24 @@
   "scope" : "compile"
 }, {
   "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-gradle-plugin",
+  "version" : "1.43",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-github-lib",
   "version" : "1.51",
   "classifier" : null,
   "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-maven-plugin",
+  "version" : "1.43",
+  "classifier" : null,
+  "type" : "maven-plugin",
   "scope" : "compile"
 }, {
   "groupId" : "se.bjurr.violations",

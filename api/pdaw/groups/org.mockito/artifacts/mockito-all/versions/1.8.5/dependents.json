@@ -1,0 +1,50 @@
+[ {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.44",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.51",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.55",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.58",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.61",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.65",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.69",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+} ]

@@ -1,0 +1,85 @@
+[ {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.13"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.2"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.20"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.33"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.35"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.37"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.40"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.41"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.44"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.51"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.55"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.58"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.6"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.61"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.65"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.69"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.75"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.80"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.81"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.86"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-lib",
+  "version" : "1.9"
+} ]

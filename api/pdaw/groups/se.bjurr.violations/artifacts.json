@@ -12,6 +12,9 @@
   "artifactId" : "violation-comments-to-github-lib"
 }, {
   "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-maven-plugin"
+}, {
+  "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-gitlab-gradle-plugin"
 }, {
   "groupId" : "se.bjurr.violations",
@@ -28,4 +31,7 @@
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violations-lib"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violations-maven-plugin"
 } ]

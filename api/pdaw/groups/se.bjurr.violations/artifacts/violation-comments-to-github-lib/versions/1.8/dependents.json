@@ -5,4 +5,11 @@
   "classifier" : null,
   "type" : "jar",
   "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-maven-plugin",
+  "version" : "1.7",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
 } ]

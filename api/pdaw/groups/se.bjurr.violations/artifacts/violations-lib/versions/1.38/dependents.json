@@ -35,6 +35,13 @@
   "scope" : "compile"
 }, {
   "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-maven-plugin",
+  "version" : "1.32",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-gitlab-gradle-plugin",
   "version" : "1.5",
   "classifier" : null,
