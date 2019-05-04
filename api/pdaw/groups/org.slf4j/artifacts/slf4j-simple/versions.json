@@ -1,0 +1,5 @@
+[ {
+  "groupId" : "org.slf4j",
+  "artifactId" : "slf4j-simple",
+  "version" : "1.7.18"
+} ]

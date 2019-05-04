@@ -1,11 +1,23 @@
 [ {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.0"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.1"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
   "version" : "1.10"
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",
   "version" : "1.11"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.12"
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",
@@ -26,6 +38,10 @@
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",
   "version" : "1.17"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.18"
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",
@@ -53,7 +69,15 @@
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.24"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
   "version" : "1.25"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.26"
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",
@@ -77,6 +101,10 @@
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.31"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
   "version" : "1.32"
 }, {
   "groupId" : "se.bjurr.violations",
@@ -97,6 +125,10 @@
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.38"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
   "version" : "1.39"
 }, {
   "groupId" : "se.bjurr.violations",
@@ -113,6 +145,10 @@
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.42"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
   "version" : "1.43"
 }, {
   "groupId" : "se.bjurr.violations",
@@ -125,11 +161,23 @@
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.46"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
   "version" : "1.47"
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.48"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
   "version" : "1.49"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.5"
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",
@@ -146,6 +194,10 @@
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",
   "version" : "1.53"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.54"
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",
@@ -181,6 +233,10 @@
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.62"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
   "version" : "1.63"
 }, {
   "groupId" : "se.bjurr.violations",
@@ -209,7 +265,19 @@
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.7"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.70"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
   "version" : "1.71"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.72"
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",
@@ -218,6 +286,10 @@
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",
   "version" : "1.73"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-bitbucket-server-lib",
+  "version" : "1.74"
 }, {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-to-bitbucket-server-lib",

@@ -1,0 +1,5 @@
+[ {
+  "groupId" : "javax.annotation",
+  "artifactId" : "jsr250-api",
+  "version" : "1.0"
+} ]

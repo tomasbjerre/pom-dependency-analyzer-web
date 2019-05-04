@@ -1,0 +1,8 @@
+{
+  "groupId" : "javax.ws.rs",
+  "artifactId" : "javax.ws.rs-api",
+  "version" : "2.1",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}

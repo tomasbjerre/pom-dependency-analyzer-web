@@ -1,0 +1,5 @@
+[ {
+  "groupId" : "org.glassfish.jersey.connectors",
+  "artifactId" : "jersey-apache-connector",
+  "version" : "2.27"
+} ]

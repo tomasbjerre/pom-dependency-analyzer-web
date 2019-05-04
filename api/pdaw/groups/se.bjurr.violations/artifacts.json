@@ -6,6 +6,21 @@
   "artifactId" : "violation-comments-to-bitbucket-server-lib"
 }, {
   "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-gradle-plugin"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-lib"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-gitlab-gradle-plugin"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-gitlab-lib"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-gitlab-maven-plugin"
+}, {
+  "groupId" : "se.bjurr.violations",
   "artifactId" : "violations-git-lib"
 }, {
   "groupId" : "se.bjurr.violations",

@@ -1,0 +1,22 @@
+[ {
+  "groupId" : "com.github.spullara.mustache.java",
+  "artifactId" : "compiler",
+  "version" : "0.9.5",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "org.slf4j",
+  "artifactId" : "slf4j-api",
+  "version" : "1.7.22",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violations-lib",
+  "version" : "1.83",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+} ]

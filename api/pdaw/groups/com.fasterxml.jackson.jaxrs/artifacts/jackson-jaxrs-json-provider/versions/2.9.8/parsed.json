@@ -1,0 +1,8 @@
+{
+  "groupId" : "com.fasterxml.jackson.jaxrs",
+  "artifactId" : "jackson-jaxrs-json-provider",
+  "version" : "2.9.8",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}

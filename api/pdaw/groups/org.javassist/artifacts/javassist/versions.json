@@ -1,0 +1,5 @@
+[ {
+  "groupId" : "org.javassist",
+  "artifactId" : "javassist",
+  "version" : "3.22.0-CR2"
+} ]

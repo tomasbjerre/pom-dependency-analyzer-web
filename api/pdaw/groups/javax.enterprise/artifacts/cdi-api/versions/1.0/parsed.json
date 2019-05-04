@@ -1,0 +1,8 @@
+{
+  "groupId" : "javax.enterprise",
+  "artifactId" : "cdi-api",
+  "version" : "1.0",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}

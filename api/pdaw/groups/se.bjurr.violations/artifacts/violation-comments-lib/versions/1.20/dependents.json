@@ -12,4 +12,11 @@
   "classifier" : null,
   "type" : "jar",
   "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-to-github-lib",
+  "version" : "1.19",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
 } ]

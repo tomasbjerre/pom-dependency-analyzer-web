@@ -1,7 +1,17 @@
 [ {
   "groupId" : "asm"
 }, {
+  "groupId" : "com.fasterxml.jackson.core"
+}, {
+  "groupId" : "com.fasterxml.jackson.jaxrs"
+}, {
+  "groupId" : "com.fasterxml.jackson.module"
+}, {
   "groupId" : "com.github.spullara.mustache.java"
+}, {
+  "groupId" : "com.github.timols"
+}, {
+  "groupId" : "com.github.tomasbjerre"
 }, {
   "groupId" : "com.google.code.findbugs"
 }, {
@@ -11,19 +21,69 @@
 }, {
   "groupId" : "com.jayway.jsonpath"
 }, {
+  "groupId" : "com.sun.activation"
+}, {
   "groupId" : "commons-codec"
 }, {
+  "groupId" : "commons-io"
+}, {
   "groupId" : "commons-logging"
+}, {
+  "groupId" : "javax.activation"
+}, {
+  "groupId" : "javax.annotation"
+}, {
+  "groupId" : "javax.enterprise"
+}, {
+  "groupId" : "javax.inject"
+}, {
+  "groupId" : "javax.servlet"
+}, {
+  "groupId" : "javax.ws.rs"
+}, {
+  "groupId" : "javax.xml.bind"
 }, {
   "groupId" : "junit"
 }, {
   "groupId" : "net.minidev"
 }, {
+  "groupId" : "org.apache.commons"
+}, {
   "groupId" : "org.apache.httpcomponents"
+}, {
+  "groupId" : "org.apache.maven"
+}, {
+  "groupId" : "org.apache.maven.plugin-tools"
 }, {
   "groupId" : "org.assertj"
 }, {
+  "groupId" : "org.codehaus.plexus"
+}, {
+  "groupId" : "org.eclipse.mylyn.github"
+}, {
+  "groupId" : "org.eclipse.sisu"
+}, {
+  "groupId" : "org.gitlab"
+}, {
+  "groupId" : "org.gitlab4j"
+}, {
+  "groupId" : "org.glassfish.hk2"
+}, {
+  "groupId" : "org.glassfish.hk2.external"
+}, {
+  "groupId" : "org.glassfish.jersey.connectors"
+}, {
+  "groupId" : "org.glassfish.jersey.core"
+}, {
+  "groupId" : "org.glassfish.jersey.inject"
+}, {
+  "groupId" : "org.glassfish.jersey.media"
+}, {
   "groupId" : "org.hamcrest"
+}, {
+  "groupId" : "org.javassist"
+}, {
+  "groupId" : "org.jvnet.mimepull"
 }, {
   "groupId" : "org.slf4j"
 }, {

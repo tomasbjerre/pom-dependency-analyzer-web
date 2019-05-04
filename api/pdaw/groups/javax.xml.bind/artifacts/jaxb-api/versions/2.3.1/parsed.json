@@ -1,0 +1,8 @@
+{
+  "groupId" : "javax.xml.bind",
+  "artifactId" : "jaxb-api",
+  "version" : "2.3.1",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}

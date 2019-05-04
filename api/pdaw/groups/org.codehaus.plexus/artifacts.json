@@ -1,0 +1,10 @@
+[ {
+  "groupId" : "org.codehaus.plexus",
+  "artifactId" : "plexus-classworlds"
+}, {
+  "groupId" : "org.codehaus.plexus",
+  "artifactId" : "plexus-component-annotations"
+}, {
+  "groupId" : "org.codehaus.plexus",
+  "artifactId" : "plexus-utils"
+} ]

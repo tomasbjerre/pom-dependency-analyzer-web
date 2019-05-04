@@ -1,0 +1,13 @@
+[ {
+  "groupId" : "org.glassfish.hk2",
+  "artifactId" : "hk2-api"
+}, {
+  "groupId" : "org.glassfish.hk2",
+  "artifactId" : "hk2-locator"
+}, {
+  "groupId" : "org.glassfish.hk2",
+  "artifactId" : "hk2-utils"
+}, {
+  "groupId" : "org.glassfish.hk2",
+  "artifactId" : "osgi-resource-locator"
+} ]

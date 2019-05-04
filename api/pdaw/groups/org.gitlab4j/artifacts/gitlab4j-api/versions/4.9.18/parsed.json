@@ -1,0 +1,8 @@
+{
+  "groupId" : "org.gitlab4j",
+  "artifactId" : "gitlab4j-api",
+  "version" : "4.9.18",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}

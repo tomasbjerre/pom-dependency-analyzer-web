@@ -1,0 +1,5 @@
+[ {
+  "groupId" : "javax.ws.rs",
+  "artifactId" : "javax.ws.rs-api",
+  "version" : "2.1"
+} ]
