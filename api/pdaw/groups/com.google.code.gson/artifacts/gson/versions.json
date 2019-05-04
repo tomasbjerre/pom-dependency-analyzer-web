@@ -9,6 +9,10 @@
 }, {
   "groupId" : "com.google.code.gson",
   "artifactId" : "gson",
+  "version" : "2.5"
+}, {
+  "groupId" : "com.google.code.gson",
+  "artifactId" : "gson",
   "version" : "2.6.1"
 }, {
   "groupId" : "com.google.code.gson",

@@ -1,0 +1,8 @@
+{
+  "groupId" : "com.squareup",
+  "artifactId" : "javapoet",
+  "version" : "1.7.0",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}

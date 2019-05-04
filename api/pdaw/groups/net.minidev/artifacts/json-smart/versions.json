@@ -6,4 +6,8 @@
   "groupId" : "net.minidev",
   "artifactId" : "json-smart",
   "version" : "2.2"
+}, {
+  "groupId" : "net.minidev",
+  "artifactId" : "json-smart",
+  "version" : "2.3"
 } ]

@@ -1,0 +1,8 @@
+{
+  "groupId" : "com.sun.mail",
+  "artifactId" : "javax.mail",
+  "version" : "1.6.0",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}

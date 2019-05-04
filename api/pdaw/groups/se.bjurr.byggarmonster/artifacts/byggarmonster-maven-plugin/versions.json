@@ -1,0 +1,9 @@
+[ {
+  "groupId" : "se.bjurr.byggarmonster",
+  "artifactId" : "byggarmonster-maven-plugin",
+  "version" : "1.0"
+}, {
+  "groupId" : "se.bjurr.byggarmonster",
+  "artifactId" : "byggarmonster-maven-plugin",
+  "version" : "1.1"
+} ]

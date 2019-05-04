@@ -1,0 +1,8 @@
+{
+  "groupId" : "org.xmlunit",
+  "artifactId" : "xmlunit-legacy",
+  "version" : "2.6.2",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}

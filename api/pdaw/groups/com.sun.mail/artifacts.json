@@ -1,0 +1,4 @@
+[ {
+  "groupId" : "com.sun.mail",
+  "artifactId" : "javax.mail"
+} ]

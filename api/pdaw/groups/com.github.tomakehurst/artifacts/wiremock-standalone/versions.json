@@ -1,0 +1,5 @@
+[ {
+  "groupId" : "com.github.tomakehurst",
+  "artifactId" : "wiremock-standalone",
+  "version" : "2.23.2"
+} ]

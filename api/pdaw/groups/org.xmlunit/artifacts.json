@@ -1,0 +1,10 @@
+[ {
+  "groupId" : "org.xmlunit",
+  "artifactId" : "xmlunit-core"
+}, {
+  "groupId" : "org.xmlunit",
+  "artifactId" : "xmlunit-legacy"
+}, {
+  "groupId" : "org.xmlunit",
+  "artifactId" : "xmlunit-placeholders"
+} ]

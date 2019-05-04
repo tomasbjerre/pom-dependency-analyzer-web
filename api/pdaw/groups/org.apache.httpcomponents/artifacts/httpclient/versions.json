@@ -14,4 +14,8 @@
   "groupId" : "org.apache.httpcomponents",
   "artifactId" : "httpclient",
   "version" : "4.5.5"
+}, {
+  "groupId" : "org.apache.httpcomponents",
+  "artifactId" : "httpclient",
+  "version" : "4.5.6"
 } ]

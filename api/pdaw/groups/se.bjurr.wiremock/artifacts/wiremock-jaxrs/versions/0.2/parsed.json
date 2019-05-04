@@ -1,0 +1,8 @@
+{
+  "groupId" : "se.bjurr.wiremock",
+  "artifactId" : "wiremock-jaxrs",
+  "version" : "0.2",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}

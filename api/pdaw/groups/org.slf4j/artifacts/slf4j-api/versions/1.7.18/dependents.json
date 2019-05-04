@@ -1174,4 +1174,18 @@
   "classifier" : null,
   "type" : "jar",
   "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.wiremock",
+  "artifactId" : "wiremock-jaxrs-example-api-mock",
+  "version" : "1.5",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.wiremock",
+  "artifactId" : "wiremock-jaxrs-example-api-mock",
+  "version" : "1.6",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
 } ]

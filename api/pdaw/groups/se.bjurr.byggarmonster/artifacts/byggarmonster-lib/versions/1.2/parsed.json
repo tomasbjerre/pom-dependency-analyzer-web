@@ -1,0 +1,8 @@
+{
+  "groupId" : "se.bjurr.byggarmonster",
+  "artifactId" : "byggarmonster-lib",
+  "version" : "1.2",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}
