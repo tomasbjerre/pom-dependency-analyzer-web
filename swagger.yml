@@ -8,7 +8,7 @@ info:
     name: "Apache 2.0"
     url: "http://www.apache.org/licenses/LICENSE-2.0.html"
 host: "tomasbjerre.github.io"
-basePath: "/pom-dependency-analyzer-web/pdaw/v1"
+basePath: "/api"
 tags:
 - name: "pet"
   description: "Everything about your Pets"
