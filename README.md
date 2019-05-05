@@ -37,14 +37,16 @@ Example:
                                            Default: <user home>/.m2/repository
 ```
 
-# Developer instructions
+# Backend
 
-Build it with:
-```shell
-./build.sh
-```
+Developed with Gradle.
 
-## Frontend
+Commands:
+
+ * `./gradlew build` - Build backend
+ * `./update-api.sh` - Update the gh-pages API
+
+# Frontend
 
 Developed with Vue.
 
