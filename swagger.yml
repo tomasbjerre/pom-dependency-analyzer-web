@@ -9,13 +9,23 @@ info:
     url: "http://www.apache.org/licenses/LICENSE-2.0.html"
 host: "tomasbjerre.github.io"
 basePath: "/pom-dependency-analyzer-web/api"
-tags:
-- name: "pet"
-  description: "Everything about your Pets"
 schemes:
 - "https"
 - "http"
 paths:
+  /pdaw/metadata.json:
+    get:
+      summary: "Get global metadata"
+      operationId: "getGlobalMetadata"
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/Metadata"
   /pdaw/groups.json:
     get:
       summary: "Get list of groups"
