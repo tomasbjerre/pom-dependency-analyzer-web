@@ -7,11 +7,12 @@
     "serve": "vue-cli-service serve",
     "build": "npm install --verbose && npm run generate-client && npm run format && vue-cli-service build",
     "lint": "vue-cli-service lint --fix",
-    "format": "./node_modules/.bin/prettier --single-quote --write '{public,src}/**/*.!(sh|png|*ignore|ico|svg)' --write '*.?(json|js)'",
-    "generate-client": "echo ./node_modules/.bin/openapi-generator generate -g typescript-node -i ../swagger.yml -o src/components/client"
+    "format": "./node_modules/.bin/prettier --single-quote --write '{public,src}/**/*.!(sh|png|*ignore|ico|svg|*pts)' --write '*.?(json|js)'",
+    "generate-client": "./node_modules/.bin/openapi-generator generate -g typescript-axios -i ../swagger.yml -o src/components/client"
   },
   "dependencies": {
     "@types/jquery": "^3.3.29",
+    "axios": "^0.18.0",
     "bluebird": "^3.3.5",
     "core-js": "^2.6.5",
     "jquery": "^3.1.1",

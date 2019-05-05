@@ -26,17 +26,13 @@
 </template>
 
 <script>
-//import APIS from 'components/client.vue';
-
 export default {
   name: 'App',
-  components: {
-    /*APIS*/
-  },
+  components: {},
   data() {
     return {
       number_of_artifacts: 'APIS',
-      last_updated: 'APIS.getGlobalMetadata()',
+      last_updated: DefaultApiFactory.getGlobalMetadata(),
     };
   },
 };
