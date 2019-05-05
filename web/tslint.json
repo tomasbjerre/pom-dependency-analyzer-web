@@ -5,6 +5,7 @@
     "exclude": ["node_modules/**"]
   },
   "rules": {
+    "arrow-parens": false,
     "quotemark": [true, "single"],
     "indent": [true, "spaces", 2],
     "interface-name": false,

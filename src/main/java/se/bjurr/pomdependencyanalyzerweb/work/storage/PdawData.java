@@ -2,6 +2,7 @@ package se.bjurr.pomdependencyanalyzerweb.work.storage;
 
 import static java.util.Objects.requireNonNull;
 
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -27,18 +28,14 @@ public class PdawData {
       new HashMap<>();
   private final Map<String, Set<Metadata>> metadataPerGroupArtifactIdAndVersion = new HashMap<>();
   private final Map<String, Dependency> parsedPerGroupArtifactIdAndVersion = new HashMap<>();
+  private int parsed = 0;
 
   public List<Artifact> getArtifacts(final String groupId) {
     return new ArrayList<Artifact>(artifactsPerGroupId.get(groupId));
   }
 
   private static Comparator<Object> stringComparator() {
-    return new Comparator<Object>() {
-      @Override
-      public int compare(final Object o1, final Object o2) {
-        return o1.toString().compareTo(o2.toString());
-      }
-    };
+    return (o1, o2) -> o1.toString().compareTo(o2.toString());
   }
 
   public List<Version> getVersions(final String groupId, final String artifactId) {
@@ -109,26 +106,9 @@ public class PdawData {
         .addAll(dependents);
   }
 
-  private void addSearchParts(final Dependency dep, final List<Dependency> also) {
-    requireNonNull(dep, "dep");
-    requireNonNull(also, "also");
-    addSearchPart(dep);
-
-    for (final Dependency d : also) {
-      addSearchPart(d);
-    }
-  }
-
-  private void addSearchPart(final Dependency dep) {
-    requireNonNull(dep, "dep");
-    groups.add(group(dep.getGroupId()));
-    getOrCreate(artifactsPerGroupId, dep.getGroupId()).add(artifact(dep));
-    getOrCreate(versionsPerGroupArtifactId, dep.getGroupId() + " " + dep.getArtifactId())
-        .add(version(dep));
-  }
-
   public void addParsed(final Dependency dep) {
     requireNonNull(dep, "dep");
+    parsed++;
     parsedPerGroupArtifactIdAndVersion.put(
         dep.getGroupId() + " " + dep.getArtifactId() + " " + dep.getVersion(), dep);
   }
@@ -153,6 +133,38 @@ public class PdawData {
             metadataPerGroupArtifactIdAndVersion,
             dep.getGroupId() + " " + dep.getArtifactId() + " " + dep.getVersion())
         .addAll(metadataList);
+  }
+
+  public List<Metadata> getMetadata() {
+    final List<Metadata> metadata = new ArrayList<>();
+    metadata.add(metadata("number_of_artifacts", this.parsed + ""));
+    metadata.add(metadata("last_updated", Instant.now().toString()));
+    return metadata;
+  }
+
+  private Metadata metadata(final String k, final String v) {
+    final Metadata m = new Metadata();
+    m.setKey(k);
+    m.setValue(v);
+    return m;
+  }
+
+  private void addSearchParts(final Dependency dep, final List<Dependency> also) {
+    requireNonNull(dep, "dep");
+    requireNonNull(also, "also");
+    addSearchPart(dep);
+
+    for (final Dependency d : also) {
+      addSearchPart(d);
+    }
+  }
+
+  private void addSearchPart(final Dependency dep) {
+    requireNonNull(dep, "dep");
+    groups.add(group(dep.getGroupId()));
+    getOrCreate(artifactsPerGroupId, dep.getGroupId()).add(artifact(dep));
+    getOrCreate(versionsPerGroupArtifactId, dep.getGroupId() + " " + dep.getArtifactId())
+        .add(version(dep));
   }
 
   private Version version(final Dependency dep) {

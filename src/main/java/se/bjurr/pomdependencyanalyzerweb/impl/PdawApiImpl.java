@@ -40,12 +40,18 @@ public class PdawApiImpl implements PdawApi {
   }
 
   @Override
-  public List<Metadata> getMetadata(String groupId, String artifactId, String version) {
+  public List<Metadata> getMetadata(
+      final String groupId, final String artifactId, final String version) {
     return PDAWDATA.getMetadata(groupId, artifactId, version);
   }
 
   @Override
-  public Dependency getParsed(String groupId, String artifactId, String version) {
+  public Dependency getParsed(final String groupId, final String artifactId, final String version) {
     return PDAWDATA.getParsed(groupId, artifactId, version);
+  }
+
+  @Override
+  public List<Metadata> getGlobalMetadata() {
+    return PDAWDATA.getMetadata();
   }
 }
