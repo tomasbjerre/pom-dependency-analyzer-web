@@ -26,14 +26,19 @@
 </template>
 
 <script>
+import { DefaultApiFactory } from './components/client/index';
+
 export default {
   name: 'App',
   components: {},
   data() {
     return {
-      number_of_artifacts: 'APIS',
-      last_updated: DefaultApiFactory.getGlobalMetadata(),
+      number_of_artifacts: '123',
+      last_updated: '',
     };
+  },
+  mounted() {
+    this.number_of_artifacts = DefaultApiFactory.getGlobalMetadata();
   },
 };
 </script>
