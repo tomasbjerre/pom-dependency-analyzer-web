@@ -50,6 +50,8 @@ Developed with Vue.
 
 Commands:
 
+ * `sudo npm install -g @vue/cli` - Install Vue CLI globally
+ * `npm install` - Install dependencies
  * `npm run build` - Build
  * `npm run serve` - Serve
 
