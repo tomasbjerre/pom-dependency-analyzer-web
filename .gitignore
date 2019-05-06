@@ -1,4 +1,4 @@
-web/src/components/client/
+web/src/services/pdaw
 tmp
 **/generated/**
 src/main/java/se/bjurr/pomdependencyanalyzerweb/gen/

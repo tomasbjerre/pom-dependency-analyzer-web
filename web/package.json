@@ -8,7 +8,7 @@
     "build": "npm install --verbose && npm run generate-client && npm run format && vue-cli-service build",
     "lint": "vue-cli-service lint --fix",
     "format": "./node_modules/.bin/prettier --single-quote --write '{public,src}/**/*.!(sh|png|*ignore|ico|svg|*pts)' --write '*.?(json|js)'",
-    "generate-client": "./node_modules/.bin/openapi-generator generate -g typescript-axios -i ../swagger.yml -o src/components/client"
+    "generate-client": "./node_modules/.bin/openapi-generator generate -g typescript-axios -i ../swagger.yml -o src/services/pdaw --additional-properties supportsES6=true"
   },
   "dependencies": {
     "@types/jquery": "^3.3.29",
