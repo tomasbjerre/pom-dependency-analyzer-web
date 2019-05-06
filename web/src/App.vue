@@ -3,7 +3,7 @@
     <v-toolbar app>
       <v-toolbar-title class="headline text-uppercase">
         <span>Pom Dependency Analyzer Web</span>
-        <br>
+        <br />
         <span class="font-weight-light">
           {{ number_of_artifacts }} artifacts indexed at
           {{ last_updated }}
@@ -19,7 +19,11 @@
         <v-icon>open_in_new</v-icon>
       </v-btn>
 
-      <v-btn flat href="https://github.com/tomasbjerre/pom-dependency-analyzer-web" target="_blank">
+      <v-btn
+        flat
+        href="https://github.com/tomasbjerre/pom-dependency-analyzer-web"
+        target="_blank"
+      >
         <span class="mr-2">GitHub</span>
         <v-icon>open_in_new</v-icon>
       </v-btn>
