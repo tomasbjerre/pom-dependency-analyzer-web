@@ -9,6 +9,11 @@ Changelog of Pom dependency analyzer web.
 **update**
 
 
+[3a51001f07bf6fa](https://github.com/tomasbjerre/pom-dependency-web/commit/3a51001f07bf6fa) Tomas Bjerre *2019-05-07 14:55:52*
+
+**update**
+
+
 [6e1148e43527c10](https://github.com/tomasbjerre/pom-dependency-web/commit/6e1148e43527c10) Tomas Bjerre *2019-05-07 14:15:44*
 
 **update**

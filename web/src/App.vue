@@ -1,14 +1,7 @@
 <template>
   <v-app>
     <v-toolbar app>
-      <v-toolbar-title class="headline text-uppercase">
-        <span>Pom Dependency Analyzer Web</span>
-        <br />
-        <span class="font-weight-light">
-          {{ metadata['number_of_artifacts'] }} artifacts indexed at
-          {{ metadata['last_updated'] }}
-        </span>
-      </v-toolbar-title>
+      <pdaw-toolbar></pdaw-toolbar>
       <v-spacer></v-spacer>
       <v-btn
         flat
@@ -28,9 +21,13 @@
         <v-icon>open_in_new</v-icon>
       </v-btn>
     </v-toolbar>
-
     <v-content>content</v-content>
   </v-app>
 </template>
 
-<script lang="ts" src="./app.ts"></script>
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
+import PdawToolbar from './components/pdaw-toolbar/pdaw-toolbar';
+@Component({ components: { PdawToolbar } })
+export default class App extends Vue {}
+</script>

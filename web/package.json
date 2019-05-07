@@ -11,11 +11,9 @@
     "generate-client": "./node_modules/.bin/openapi-generator generate -g typescript-axios -i ../swagger.yml -o src/services/pdaw --additional-properties supportsES6=true"
   },
   "dependencies": {
-    "@types/jquery": "^3.3.29",
     "axios": "^0.18.0",
     "bluebird": "^3.3.5",
     "core-js": "^2.6.5",
-    "jquery": "^3.1.1",
     "material-design-icons-iconfont": "^3.0.3",
     "request": "^2.72.0",
     "roboto-fontface": "*",
