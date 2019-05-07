@@ -12,15 +12,14 @@
         <v-icon>open_in_new</v-icon>
       </v-btn>
 
-      <v-btn
-        flat
-        href="https://github.com/tomasbjerre/pom-dependency-analyzer-web"
-        target="_blank"
-      >
+      <v-btn flat href="https://github.com/tomasbjerre/pom-dependency-analyzer-web" target="_blank">
         <span class="mr-2">GitHub</span>
         <v-icon>open_in_new</v-icon>
       </v-btn>
     </v-toolbar>
+
+    <pdaw-select-gav></pdaw-select-gav>
+
     <v-content>content</v-content>
   </v-app>
 </template>
@@ -28,6 +27,7 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import PdawToolbar from './components/pdaw-toolbar/pdaw-toolbar';
-@Component({ components: { PdawToolbar } })
+import PdawSelectGav from './components/pdaw-select-gav/pdaw-select-gav';
+@Component({ components: { PdawToolbar, PdawSelectGav } })
 export default class App extends Vue {}
 </script>
