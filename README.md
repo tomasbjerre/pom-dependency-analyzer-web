@@ -44,7 +44,6 @@ Developed with Gradle.
 Commands:
 
  * `./gradlew build` - Build backend
- * `./update-api.sh` - Update the gh-pages API
 
 # Frontend
 
