@@ -5,5 +5,5 @@ rm -rf gh-pages \
  && cp swagger.yml gh-pages \
  && ./gradlew clean gitChangelogTask build -i -Dhttp.socketTimeout=60000 -Dhttp.connectionTimeout=60000 \
  && ./gradlew run --args="-af gh-pages/api" \
- && ./build-and-copy-web.sh
+ && ./build-and-copy-web.sh \
  && cd gh-pages && git add . && git commit -a -m "Updated" && git push
