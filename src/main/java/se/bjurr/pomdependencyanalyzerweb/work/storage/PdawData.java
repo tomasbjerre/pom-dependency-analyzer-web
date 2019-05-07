@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
 import javax.ws.rs.WebApplicationException;
@@ -135,18 +136,11 @@ public class PdawData {
         .addAll(metadataList);
   }
 
-  public List<Metadata> getMetadata() {
-    final List<Metadata> metadata = new ArrayList<>();
-    metadata.add(metadata("number_of_artifacts", this.parsed + ""));
-    metadata.add(metadata("last_updated", Instant.now().toString()));
+  public Map<String, String> getMetadata() {
+    final Map<String, String> metadata = new TreeMap<>();
+    metadata.put("number_of_artifacts", this.parsed + "");
+    metadata.put("last_updated", Instant.now().toString());
     return metadata;
-  }
-
-  private Metadata metadata(final String k, final String v) {
-    final Metadata m = new Metadata();
-    m.setKey(k);
-    m.setValue(v);
-    return m;
   }
 
   private void addSearchParts(final Dependency dep, final List<Dependency> also) {

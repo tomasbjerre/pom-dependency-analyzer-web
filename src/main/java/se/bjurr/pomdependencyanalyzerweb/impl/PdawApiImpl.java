@@ -1,6 +1,7 @@
 package se.bjurr.pomdependencyanalyzerweb.impl;
 
 import java.util.List;
+import java.util.Map;
 import se.bjurr.pomdependencyanalyzerweb.gen.api.PdawApi;
 import se.bjurr.pomdependencyanalyzerweb.gen.model.Artifact;
 import se.bjurr.pomdependencyanalyzerweb.gen.model.Dependency;
@@ -51,7 +52,7 @@ public class PdawApiImpl implements PdawApi {
   }
 
   @Override
-  public List<Metadata> getGlobalMetadata() {
+  public Map<String, String> getGlobalMetadata() {
     return PDAWDATA.getMetadata();
   }
 }

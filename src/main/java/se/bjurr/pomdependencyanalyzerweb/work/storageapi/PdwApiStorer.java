@@ -7,6 +7,7 @@ import java.lang.reflect.Method;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import javax.ws.rs.NotFoundException;
 import javax.ws.rs.Path;
 import javax.ws.rs.client.Client;
@@ -19,7 +20,6 @@ import se.bjurr.pomdependencyanalyzerweb.data.PomAnalyzerArguments;
 import se.bjurr.pomdependencyanalyzerweb.gen.api.PdawApi;
 import se.bjurr.pomdependencyanalyzerweb.gen.model.Artifact;
 import se.bjurr.pomdependencyanalyzerweb.gen.model.Group;
-import se.bjurr.pomdependencyanalyzerweb.gen.model.Metadata;
 import se.bjurr.pomdependencyanalyzerweb.gen.model.Version;
 
 public class PdwApiStorer {
@@ -34,7 +34,7 @@ public class PdwApiStorer {
   }
 
   private static void storeMetadata(final PdawApi api) {
-    final List<Metadata> data = api.getGlobalMetadata();
+    final Map<String, String> data = api.getGlobalMetadata();
     store(data, PomAnalyzerArguments.INSTANCE.getApiFolder() + getPath("getGlobalMetadata"));
   }
 
