@@ -9,6 +9,16 @@ Changelog of Pom dependency analyzer web.
 **update**
 
 
+[43c7a1788dbe316](https://github.com/tomasbjerre/pom-dependency-web/commit/43c7a1788dbe316) Tomas Bjerre *2019-05-07 19:07:02*
+
+**update**
+
+
+[2bc24bd2e1565c5](https://github.com/tomasbjerre/pom-dependency-web/commit/2bc24bd2e1565c5) Tomas Bjerre *2019-05-07 18:10:26*
+
+**update**
+
+
 [b9897339b29c1e1](https://github.com/tomasbjerre/pom-dependency-web/commit/b9897339b29c1e1) Tomas Bjerre *2019-05-07 17:57:52*
 
 **pdaw-toolbar in its own component**

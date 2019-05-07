@@ -12,7 +12,11 @@
         <v-icon>open_in_new</v-icon>
       </v-btn>
 
-      <v-btn flat href="https://github.com/tomasbjerre/pom-dependency-analyzer-web" target="_blank">
+      <v-btn
+        flat
+        href="https://github.com/tomasbjerre/pom-dependency-analyzer-web"
+        target="_blank"
+      >
         <span class="mr-2">GitHub</span>
         <v-icon>open_in_new</v-icon>
       </v-btn>
