@@ -6,6 +6,11 @@ Changelog of Pom dependency analyzer web.
 ## Unreleased
 ### No issue
 
+**pdaw-toolbar in its own component**
+
+
+[9bab5bd0eb635d7](https://github.com/tomasbjerre/pom-dependency-web/commit/9bab5bd0eb635d7) Tomas Bjerre *2019-05-07 17:53:53*
+
 **update**
 
 
