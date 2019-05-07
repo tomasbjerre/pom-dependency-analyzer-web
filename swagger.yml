@@ -23,9 +23,9 @@ paths:
         200:
           description: "successful operation"
           schema:
-            type: "array"
-            items:
-              $ref: "#/definitions/Metadata"
+            type: object
+            additionalProperties:
+              type: string
   /pdaw/groups.json:
     get:
       summary: "Get list of groups"
