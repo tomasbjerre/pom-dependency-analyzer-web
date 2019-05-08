@@ -1,5 +1,5 @@
 import { Component, Vue } from 'vue-property-decorator';
-import { DefaultApi } from '../../services/pdaw';
+import { ServiceFactory } from '@/services/service-factory';
 @Component
 export default class PdawToolbar extends Vue {
   public metadata: {
@@ -9,8 +9,10 @@ export default class PdawToolbar extends Vue {
     super();
   }
   public mounted() {
-    new DefaultApi().getGlobalMetadata().then(it => {
-      this.metadata = it.data;
-    });
+    ServiceFactory.getDefaultApi()
+      .getGlobalMetadata()
+      .then(it => {
+        this.metadata = it.data;
+      });
   }
 }
