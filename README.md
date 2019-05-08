@@ -47,7 +47,7 @@ Commands:
 
 # Frontend
 
-You can change where the API is located by creating a file called `pdaw-config.json` with content like:
+You can change where the API is located by creating a file called `pdaw-config.json`. Place it where you deployed the frontend, same level as the `index.html`. It should contain::
 ```json
 {
  "apiBasePath": "http://whereveryour/api/is/located"
