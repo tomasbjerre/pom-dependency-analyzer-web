@@ -18,6 +18,6 @@ export class ConfigService {
     return ConfigService.pdawConfig;
   }
   private static configFileName = 'pdaw-config.json';
-  private static defaultConfig = { basePath: '' };
+  private static defaultConfig = { apiBasePath: '' };
   private static pdawConfig: any;
 }

@@ -47,6 +47,13 @@ Commands:
 
 # Frontend
 
+You can change where the API is located by creating a file called `pdaw-config.json` with content like:
+```json
+{
+ "apiBasePath": "http://whereveryour/api/is/located"
+}
+```
+
 Developed with Vue.
 
 Commands:
