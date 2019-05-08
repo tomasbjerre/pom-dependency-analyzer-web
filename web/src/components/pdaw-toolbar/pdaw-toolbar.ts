@@ -9,10 +9,8 @@ export default class PdawToolbar extends Vue {
     super();
   }
   public mounted() {
-    ServiceFactory.getDefaultApi()
-      .getGlobalMetadata()
-      .then(it => {
-        this.metadata = it.data;
-      });
+    ServiceFactory.getDefaultApi(api => {
+      api.getGlobalMetadata().then(it => (this.metadata = it.data));
+    });
   }
 }

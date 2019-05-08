@@ -7,14 +7,14 @@ export default class PdawSelectGav extends Vue {
     super();
   }
   public mounted() {
-    ServiceFactory.getDefaultApi()
-      .getGroupIds()
-      .then(groupResponse => {
+    ServiceFactory.getDefaultApi(api => {
+      api.getGroupIds().then(groupResponse => {
         this.groupIds = groupResponse.data.map(group => {
           return {
             text: group.groupId,
           };
         });
       });
+    });
   }
 }
