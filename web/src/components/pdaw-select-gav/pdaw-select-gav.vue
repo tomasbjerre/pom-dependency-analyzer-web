@@ -34,7 +34,7 @@
     </v-layout>
 
     <v-content>
-      version: {{selectedVersion}}
+      version: {{ selectedVersion }}
       <pdaw-gav></pdaw-gav>
     </v-content>
   </v-container>

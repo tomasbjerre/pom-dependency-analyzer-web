@@ -6,10 +6,20 @@ Changelog of Pom dependency analyzer web.
 ## Unreleased
 ### No issue
 
+**routing**
+
+
+[d96a075b9d5cf4b](https://github.com/tomasbjerre/pom-dependency-web/commit/d96a075b9d5cf4b) Tomas Bjerre *2019-05-09 18:53:04*
+
+**router**
+
+
+[83b12edb85d2e38](https://github.com/tomasbjerre/pom-dependency-web/commit/83b12edb85d2e38) Tomas Bjerre *2019-05-09 16:46:13*
+
 **update**
 
 
-[0040c5638c089a9](https://github.com/tomasbjerre/pom-dependency-web/commit/0040c5638c089a9) Tomas Bjerre *2019-05-09 13:55:49*
+[76ae22dc8f6f6f3](https://github.com/tomasbjerre/pom-dependency-web/commit/76ae22dc8f6f6f3) Tomas Bjerre *2019-05-09 14:42:28*
 
 **update**
 
