@@ -23,7 +23,7 @@
         </v-btn>
       </v-toolbar>
 
-      <pdaw-select-gav></pdaw-select-gav>
+      <router-view></router-view>
 
       <v-content>
         <pdaw-gav></pdaw-gav>
@@ -37,6 +37,12 @@ import { Component, Vue } from 'vue-property-decorator';
 import PdawToolbar from './components/pdaw-toolbar/pdaw-toolbar';
 import PdawSelectGav from './components/pdaw-select-gav/pdaw-select-gav';
 import PdawGav from './components/pdaw-gav/pdaw-gav';
-@Component({ components: { PdawToolbar, PdawSelectGav, PdawGav } })
+@Component({
+  components: {
+    PdawToolbar,
+    PdawSelectGav,
+    PdawGav,
+  },
+})
 export default class App extends Vue {}
 </script>

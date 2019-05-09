@@ -1,4 +1,4 @@
-import { Component, Vue } from 'vue-property-decorator';
+import { Component, Vue, Prop } from 'vue-property-decorator';
 import { ServiceFactory } from '../../services/service-factory';
 import { Artifact } from '@/services/pdaw';
 @Component
@@ -54,6 +54,8 @@ export default class PdawSelectGav extends Vue {
     });
   }
   public mounted() {
+    this.selectedGroup = this.$route.params.groupId;
+
     ServiceFactory.getDefaultApi(api => {
       api.getGroupIds().then(groupResponse => {
         this.groupIds = groupResponse.data.map(group => {

@@ -8,7 +8,7 @@
           editable
           item-value="text"
           v-model="selectedGroup"
-          v-on:change="onChangeGroup"
+          v-on:change="$router.push(selectedGroup)"
         ></v-overflow-btn>
       </v-flex>
       <v-flex xs8 justify-start>
