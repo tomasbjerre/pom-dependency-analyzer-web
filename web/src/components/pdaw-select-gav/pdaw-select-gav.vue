@@ -9,6 +9,8 @@
           item-value="text"
           v-model="selectedGroup"
           v-on:change="groupIdSelected()"
+          outline
+          color="black"
         ></v-overflow-btn>
       </v-flex>
       <v-flex xs8 justify-start>
@@ -19,6 +21,8 @@
           item-value="text"
           v-model="selectedArtifact"
           v-on:change="artifactIdSelected()"
+          outline
+          color="black"
         ></v-overflow-btn>
       </v-flex>
       <v-flex xs8 justify-start>
@@ -29,6 +33,8 @@
           item-value="text"
           v-model="selectedVersion"
           v-on:change="versionSelected()"
+          outline
+          color="black"
         ></v-overflow-btn>
       </v-flex>
     </v-layout>
