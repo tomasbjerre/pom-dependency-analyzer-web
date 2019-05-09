@@ -8,7 +8,7 @@
           editable
           item-value="text"
           v-model="selectedGroup"
-          v-on:change="$router.push(selectedGroup)"
+          v-on:change="groupIdSelected()"
         ></v-overflow-btn>
       </v-flex>
       <v-flex xs8 justify-start>
@@ -18,7 +18,7 @@
           editable
           item-value="text"
           v-model="selectedArtifact"
-          v-on:change="onChangeArtifact"
+          v-on:change="artifactIdSelected()"
         ></v-overflow-btn>
       </v-flex>
       <v-flex xs8 justify-start>
@@ -28,10 +28,15 @@
           editable
           item-value="text"
           v-model="selectedVersion"
-          v-on:change="onChangeVersion"
+          v-on:change="versionSelected()"
         ></v-overflow-btn>
       </v-flex>
     </v-layout>
+
+    <v-content>
+      version: {{selectedVersion}}
+      <pdaw-gav></pdaw-gav>
+    </v-content>
   </v-container>
 </template>
 

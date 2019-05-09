@@ -24,10 +24,6 @@
       </v-toolbar>
 
       <router-view></router-view>
-
-      <v-content>
-        <pdaw-gav></pdaw-gav>
-      </v-content>
     </v-content>
   </v-app>
 </template>
