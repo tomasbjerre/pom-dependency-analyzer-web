@@ -1,7 +1,7 @@
 <template>
-  <v-container grid-list-md text-xs-center>
+  <v-container grid-list-md text-xs-center v-if="version">
     <v-layout row wrap>
-      <v-flex :key="elevation" xs12>
+      <v-flex xs12>
         <v-sheet class="pa-2" color="grey lighten-3" elevation="10" title="Artifact">
           <v-toolbar>
             <v-toolbar-title>Artifact</v-toolbar-title>
@@ -25,9 +25,12 @@
               <code>{{version}}</code>
             </v-flex>
           </v-layout>
+          {{metadata}}
+          <br>
+          {{parsed}}
         </v-sheet>
       </v-flex>
-      <v-flex :key="elevation" xs6>
+      <v-flex xs6>
         <v-sheet
           class="pa-2"
           color="grey lighten-3"
@@ -38,10 +41,11 @@
           <v-toolbar>
             <v-toolbar-title>Dependencies</v-toolbar-title>
           </v-toolbar>
+          {{dependencies}}
         </v-sheet>
       </v-flex>
 
-      <v-flex :key="elevation" xs6>
+      <v-flex xs6>
         <v-sheet
           class="pa-2"
           color="grey lighten-3"
@@ -52,6 +56,7 @@
           <v-toolbar>
             <v-toolbar-title>Dependents</v-toolbar-title>
           </v-toolbar>
+          {{dependents}}
         </v-sheet>
       </v-flex>
     </v-layout>
