@@ -1,7 +1,7 @@
 <template>
-  <v-container>
+  <v-container grid-list-md text-xs-center>
     <v-layout row wrap>
-      <v-flex xs8 justify-start>
+      <v-flex xs12>
         <v-overflow-btn
           :items="groupIds"
           label="Group"
@@ -13,7 +13,7 @@
           color="black"
         ></v-overflow-btn>
       </v-flex>
-      <v-flex xs8 justify-start>
+      <v-flex xs12>
         <v-overflow-btn
           :items="artifacts"
           label="Artifact"
@@ -25,7 +25,7 @@
           color="black"
         ></v-overflow-btn>
       </v-flex>
-      <v-flex xs8 justify-start>
+      <v-flex xs12>
         <v-overflow-btn
           :items="versions"
           label="Version"
@@ -40,11 +40,7 @@
     </v-layout>
 
     <v-content>
-      <pdaw-gav
-        groupId="selectedGroup"
-        artifactId="selectedArtifact"
-        version="selectedVersion"
-      ></pdaw-gav>
+      <pdaw-gav :groupId="selectedGroup" :artifactId="selectedArtifact" :version="selectedVersion"></pdaw-gav>
     </v-content>
   </v-container>
 </template>
