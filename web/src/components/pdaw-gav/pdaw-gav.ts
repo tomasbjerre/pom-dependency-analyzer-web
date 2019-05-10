@@ -1,6 +1,7 @@
 import { Component, Vue, Prop, Watch } from 'vue-property-decorator';
 import { ServiceFactory } from '@/services/service-factory';
 import { Metadata, Dependency } from '@/services/pdaw';
+import TreeView from './tree-view';
 @Component
 export default class PdawGav extends Vue {
   @Prop()
@@ -36,5 +37,13 @@ export default class PdawGav extends Vue {
         it => (this.dependents = it.data),
       );
     });
+  }
+
+  public getDependentsTree(): any[] {
+    return new TreeView(this.dependents).getItems();
+  }
+
+  public getDependenciesTree(): any[] {
+    return new TreeView(this.dependencies).getItems();
   }
 }
