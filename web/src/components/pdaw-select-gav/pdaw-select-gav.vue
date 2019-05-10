@@ -40,8 +40,11 @@
     </v-layout>
 
     <v-content>
-      version: {{ selectedVersion }}
-      <pdaw-gav></pdaw-gav>
+      <pdaw-gav
+        groupId="selectedGroup"
+        artifactId="selectedArtifact"
+        version="selectedVersion"
+      ></pdaw-gav>
     </v-content>
   </v-container>
 </template>

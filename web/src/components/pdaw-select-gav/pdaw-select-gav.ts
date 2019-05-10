@@ -60,7 +60,11 @@ export default class PdawSelectGav extends Vue {
     );
   }
 
-  private onChangeGroup(callback = () => {}) {
+  private onChangeGroup(
+    callback = () => {
+      /** */
+    },
+  ) {
     this.artifacts = [];
     this.selectedArtifact = '';
     this.versions = [];
@@ -77,7 +81,11 @@ export default class PdawSelectGav extends Vue {
     });
   }
 
-  private onChangeArtifact(callback = () => {}) {
+  private onChangeArtifact(
+    callback = () => {
+      /** */
+    },
+  ) {
     this.versions = [];
     this.selectedVersion = '';
     ServiceFactory.getDefaultApi(api => {

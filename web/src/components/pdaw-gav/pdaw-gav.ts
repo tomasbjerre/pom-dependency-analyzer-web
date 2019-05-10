@@ -1,12 +1,12 @@
-import { Component, Vue, Watch } from 'vue-property-decorator';
+import { Component, Vue, Prop } from 'vue-property-decorator';
 @Component
 export default class PdawGav extends Vue {
-  private parsed!: string;
+  @Prop()
+  public groupId!: string;
 
-  public getParsed() {
-    if (this.parsed) {
-      return this.parsed;
-    }
-    return '';
-  }
+  @Prop()
+  public artifactId!: string;
+
+  @Prop()
+  public version!: string;
 }
