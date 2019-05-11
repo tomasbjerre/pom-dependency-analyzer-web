@@ -56,9 +56,9 @@
                 open-on-click
               >
                 <template slot="label" slot-scope="props">
-                  <router-link v-if="props.item.link" :to="props.item.link">{{
-                    props.item.name
-                  }}</router-link>
+                  <router-link v-if="props.item.link" :key="props.item.link">
+                    {{ props.item.name }}
+                  </router-link>
                   <div v-if="!props.item.link">{{ props.item.name }}</div>
                 </template>
               </v-treeview>
@@ -88,9 +88,9 @@
                 open-on-click
               >
                 <template slot="label" slot-scope="props">
-                  <router-link v-if="props.item.link" :to="props.item.link">{{
-                    props.item.name
-                  }}</router-link>
+                  <router-link v-if="props.item.link" :to="props.item.link">
+                    {{ props.item.name }}
+                  </router-link>
                   <div v-if="!props.item.link">{{ props.item.name }}</div>
                 </template>
               </v-treeview>

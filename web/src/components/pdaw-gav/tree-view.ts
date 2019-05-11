@@ -19,6 +19,8 @@ import { Dependency } from '@/services/pdaw';
 export default class TreeView {
   constructor(private dependencies: Dependency[]) {}
 
+  private idC = 0;
+
   public getItems(): any[] {
     const dependenciesPerGroup = new Map<string, Dependency[]>();
     this.dependencies.forEach(dep => {
@@ -27,12 +29,10 @@ export default class TreeView {
       dependenciesPerGroup.set(dep.groupId, deps);
     });
 
-    let idC = 0;
-
     const result: any[] = [];
     Array.from(dependenciesPerGroup.keys()).forEach(groupId => {
       result.push({
-        id: idC++,
+        id: this.idC++,
         name: groupId,
         children: this.getArtifacts(dependenciesPerGroup.get(groupId) || []),
       });
@@ -43,19 +43,17 @@ export default class TreeView {
 
   public getArtifacts(dependencies: Dependency[]) {
     const dependenciesPerArtifact = new Map<string, Dependency[]>();
-    this.dependencies.forEach(dep => {
+    dependencies.forEach(dep => {
       const deps: Dependency[] =
         dependenciesPerArtifact.get(dep.artifactId) || [];
       deps.push(dep);
       dependenciesPerArtifact.set(dep.artifactId, deps);
     });
 
-    let idC = 0;
-
     const result: any[] = [];
     Array.from(dependenciesPerArtifact.keys()).forEach(artifactId => {
       result.push({
-        id: idC++,
+        id: this.idC++,
         name: artifactId,
         children: this.getVersions(
           dependenciesPerArtifact.get(artifactId) || [],
@@ -68,18 +66,16 @@ export default class TreeView {
 
   public getVersions(dependencies: Dependency[]) {
     const dependenciesPerVersion = new Map<string, Dependency[]>();
-    this.dependencies.forEach(dep => {
+    dependencies.forEach(dep => {
       const deps: Dependency[] = dependenciesPerVersion.get(dep.version) || [];
       deps.push(dep);
       dependenciesPerVersion.set(dep.version, deps);
     });
 
-    let idC = 0;
-
     const result: any[] = [];
     Array.from(dependenciesPerVersion.keys()).forEach(version => {
       result.push({
-        id: idC++,
+        id: this.idC++,
         name: version,
         link:
           '/groupId/' +
