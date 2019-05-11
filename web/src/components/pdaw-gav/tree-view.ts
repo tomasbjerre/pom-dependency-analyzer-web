@@ -77,13 +77,9 @@ export default class TreeView {
       result.push({
         id: this.idC++,
         name: version,
-        link:
-          '/groupId/' +
-          dependencies[0].groupId +
-          '/artifactId/' +
-          dependencies[0].artifactId +
-          '/version/' +
-          version,
+        groupId: dependencies[0].groupId,
+        artifactId: dependencies[0].artifactId,
+        version: version,
         children: [],
       });
     });

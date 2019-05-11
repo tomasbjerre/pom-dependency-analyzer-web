@@ -39,6 +39,20 @@ export default class PdawGav extends Vue {
     });
   }
 
+  public selected(item: any) {
+    this.groupId = item.groupId;
+    this.artifactId = item.artifactId;
+    this.version = item.version;
+    this.$router.push(
+      '/groupId/' +
+        this.groupId +
+        '/artifactId/' +
+        this.artifactId +
+        '/version/' +
+        this.version,
+    );
+  }
+
   public getDependentsTree(): any[] {
     return new TreeView(this.dependents).getItems();
   }

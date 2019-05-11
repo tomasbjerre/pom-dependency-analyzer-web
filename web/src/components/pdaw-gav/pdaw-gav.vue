@@ -25,9 +25,24 @@
               <code>{{ version }}</code>
             </v-flex>
           </v-layout>
-          {{ metadata || [] }}
-          <br>
-          {{ parsed || [] }}
+          <v-layout row wrap v-if="parsed.classifier">
+            <v-flex xs3 text-sm-right>Classifier:</v-flex>
+            <v-flex xs3 text-sm-left>
+              <code>{{ parsed.classifier }}</code>
+            </v-flex>
+          </v-layout>
+          <v-layout row wrap>
+            <v-flex xs3 text-sm-right>Type:</v-flex>
+            <v-flex xs3 text-sm-left>
+              <code>{{ parsed.type }}</code>
+            </v-flex>
+          </v-layout>
+          <v-layout row wrap>
+            <v-flex xs3 text-sm-right>Metadata:</v-flex>
+            <v-flex xs3 text-sm-left>
+              <code>{{ metadata || [] }}</code>
+            </v-flex>
+          </v-layout>
         </v-sheet>
       </v-flex>
       <v-flex xs6>
@@ -46,12 +61,12 @@
             <v-flex text-sm-left>
               <v-treeview :items="getDependenciesTree()" open-all activatable open-on-click>
                 <template slot="label" slot-scope="props">
-                  <router-link v-if="props.item.link" :to="props.item.link">
+                  <a v-if="props.item.version" @click="selected(props.item)">
                     {{
                     props.item.name
                     }}
-                  </router-link>
-                  <div v-if="!props.item.link">{{ props.item.name }}</div>
+                  </a>
+                  <div v-if="!props.item.version">{{ props.item.name }}</div>
                 </template>
               </v-treeview>
             </v-flex>
@@ -75,12 +90,12 @@
             <v-flex text-sm-left>
               <v-treeview :items="getDependentsTree()" open-all activatable open-on-click>
                 <template slot="label" slot-scope="props">
-                  <router-link v-if="props.item.link" :to="props.item.link">
+                  <a v-if="props.item.version" @click="selected(props.item)">
                     {{
                     props.item.name
                     }}
-                  </router-link>
-                  <div v-if="!props.item.link">{{ props.item.name }}</div>
+                  </a>
+                  <div v-if="!props.item.version">{{ props.item.name }}</div>
                 </template>
               </v-treeview>
             </v-flex>
