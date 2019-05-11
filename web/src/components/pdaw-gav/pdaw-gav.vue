@@ -25,16 +25,16 @@
               <code>{{ version }}</code>
             </v-flex>
           </v-layout>
-          <v-layout row wrap v-if="parsed.classifier">
+          <v-layout row wrap>
             <v-flex xs3 text-sm-right>Classifier:</v-flex>
             <v-flex xs3 text-sm-left>
-              <code>{{ parsed.classifier }}</code>
+              <code v-if="parsedValid">{{ parsed.classifier }}</code>
             </v-flex>
           </v-layout>
           <v-layout row wrap>
             <v-flex xs3 text-sm-right>Type:</v-flex>
             <v-flex xs3 text-sm-left>
-              <code>{{ parsed.type }}</code>
+              <code v-if="parsedValid">{{ parsed.type }}</code>
             </v-flex>
           </v-layout>
           <v-layout row wrap>
@@ -59,7 +59,12 @@
 
           <v-layout row wrap>
             <v-flex text-sm-left>
-              <v-treeview :items="getDependenciesTree()" open-all activatable open-on-click>
+              <v-treeview
+                :items="getDependenciesTree()"
+                activatable
+                open-on-click
+                v-if="dependenciesValid"
+              >
                 <template slot="label" slot-scope="props">
                   <a v-if="props.item.version" @click="selected(props.item)">
                     {{
@@ -88,7 +93,7 @@
 
           <v-layout row wrap>
             <v-flex text-sm-left>
-              <v-treeview :items="getDependentsTree()" open-all activatable open-on-click>
+              <v-treeview :items="getDependentsTree()" activatable open-on-click>
                 <template slot="label" slot-scope="props">
                   <a v-if="props.item.version" @click="selected(props.item)">
                     {{

@@ -17,9 +17,7 @@ import { Dependency } from '@/services/pdaw';
     ];
  */
 export default class TreeView {
-  constructor(private dependencies: Dependency[]) {}
-
-  private idC = 0;
+  constructor(private dependencies: Dependency[], private idC = 0) {}
 
   public getItems(): any[] {
     const dependenciesPerGroup = new Map<string, Dependency[]>();
@@ -73,13 +71,13 @@ export default class TreeView {
     });
 
     const result: any[] = [];
-    Array.from(dependenciesPerVersion.keys()).forEach(version => {
+    Array.from(dependenciesPerVersion.keys()).forEach(v => {
       result.push({
         id: this.idC++,
-        name: version,
+        name: v,
         groupId: dependencies[0].groupId,
         artifactId: dependencies[0].artifactId,
-        version: version,
+        version: v,
         children: [],
       });
     });

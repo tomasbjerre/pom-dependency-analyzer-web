@@ -16,22 +16,30 @@ export default class PdawGav extends Vue {
   public metadata: Metadata[] = [];
 
   public parsed!: Dependency;
+  public parsedValid = false;
 
   public dependencies: Dependency[] = [];
+  public dependenciesValid = false;
 
   public dependents: Dependency[] = [];
 
   @Watch('version')
   public versionChanged(newVal: string) {
+    this.parsedValid = false;
+    this.dependenciesValid = false;
     ServiceFactory.getDefaultApi(a => {
       a.getMetadata(this.groupId, this.artifactId, this.version).then(
         it => (this.metadata = it.data),
       );
-      a.getParsed(this.groupId, this.artifactId, this.version).then(
-        it => (this.parsed = it.data),
-      );
+      a.getParsed(this.groupId, this.artifactId, this.version).then(it => {
+        this.parsed = it.data;
+        this.parsedValid = true;
+      });
       a.getDependencies(this.groupId, this.artifactId, this.version).then(
-        it => (this.dependencies = it.data),
+        it => {
+          this.dependencies = it.data;
+          this.dependenciesValid = true;
+        },
       );
       a.getDependents(this.groupId, this.artifactId, this.version).then(
         it => (this.dependents = it.data),
@@ -40,17 +48,15 @@ export default class PdawGav extends Vue {
   }
 
   public selected(item: any) {
-    this.groupId = item.groupId;
-    this.artifactId = item.artifactId;
-    this.version = item.version;
     this.$router.push(
       '/groupId/' +
-        this.groupId +
+        item.groupId +
         '/artifactId/' +
-        this.artifactId +
+        item.artifactId +
         '/version/' +
-        this.version,
+        item.version,
     );
+    window.location.reload();
   }
 
   public getDependentsTree(): any[] {
