@@ -2,12 +2,7 @@
   <v-container grid-list-md text-xs-center v-if="version">
     <v-layout row wrap>
       <v-flex xs12>
-        <v-sheet
-          class="pa-2"
-          color="grey lighten-3"
-          elevation="10"
-          title="Artifact"
-        >
+        <v-sheet class="pa-2" color="grey lighten-3" elevation="10" title="Artifact">
           <v-toolbar>
             <v-toolbar-title>Artifact</v-toolbar-title>
           </v-toolbar>
@@ -31,7 +26,7 @@
             </v-flex>
           </v-layout>
           {{ 'metadata' }}
-          <br />
+          <br>
           {{ 'parsed' }}
         </v-sheet>
       </v-flex>
@@ -49,16 +44,9 @@
 
           <v-layout row wrap>
             <v-flex text-sm-left>
-              <v-treeview
-                :items="getDependenciesTree()"
-                open-all
-                activatable
-                open-on-click
-              >
+              <v-treeview :items="getDependenciesTree()" open-all activatable open-on-click>
                 <template slot="label" slot-scope="props">
-                  <router-link v-if="props.item.link" :key="props.item.link">
-                    {{ props.item.name }}
-                  </router-link>
+                  <router-link v-if="props.item.link" :to="props.item.link">{{ props.item.name }}</router-link>
                   <div v-if="!props.item.link">{{ props.item.name }}</div>
                 </template>
               </v-treeview>
@@ -81,16 +69,9 @@
 
           <v-layout row wrap>
             <v-flex text-sm-left>
-              <v-treeview
-                :items="getDependentsTree()"
-                open-all
-                activatable
-                open-on-click
-              >
+              <v-treeview :items="getDependentsTree()" open-all activatable open-on-click>
                 <template slot="label" slot-scope="props">
-                  <router-link v-if="props.item.link" :to="props.item.link">
-                    {{ props.item.name }}
-                  </router-link>
+                  <router-link v-if="props.item.link" :to="props.item.link">{{ props.item.name }}</router-link>
                   <div v-if="!props.item.link">{{ props.item.name }}</div>
                 </template>
               </v-treeview>
