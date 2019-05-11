@@ -2,7 +2,12 @@
   <v-container grid-list-md text-xs-center v-if="version">
     <v-layout row wrap>
       <v-flex xs12>
-        <v-sheet class="pa-2" color="grey lighten-3" elevation="10" title="Artifact">
+        <v-sheet
+          class="pa-2"
+          color="grey lighten-3"
+          elevation="10"
+          title="Artifact"
+        >
           <v-toolbar>
             <v-toolbar-title>Artifact</v-toolbar-title>
           </v-toolbar>
@@ -67,9 +72,7 @@
               >
                 <template slot="label" slot-scope="props">
                   <a v-if="props.item.version" @click="selected(props.item)">
-                    {{
-                    props.item.name
-                    }}
+                    {{ props.item.name }}
                   </a>
                   <div v-if="!props.item.version">{{ props.item.name }}</div>
                 </template>
@@ -93,12 +96,14 @@
 
           <v-layout row wrap>
             <v-flex text-sm-left>
-              <v-treeview :items="getDependentsTree()" activatable open-on-click>
+              <v-treeview
+                :items="getDependentsTree()"
+                activatable
+                open-on-click
+              >
                 <template slot="label" slot-scope="props">
                   <a v-if="props.item.version" @click="selected(props.item)">
-                    {{
-                    props.item.name
-                    }}
+                    {{ props.item.name }}
                   </a>
                   <div v-if="!props.item.version">{{ props.item.name }}</div>
                 </template>
