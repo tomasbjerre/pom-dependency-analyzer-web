@@ -1,7 +1,5 @@
 # Pom Dependency Analyzer Web
 [![Build Status](https://travis-ci.org/tomasbjerre/pom-dependency-analyzer-web.svg?branch=master)](https://travis-ci.org/tomasbjerre/pom-dependency-analyzer-web)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/se.bjurr.pomdependencyanalyzerweb/pom-dependency-analyzer-web/badge.svg)](https://maven-badges.herokuapp.com/maven-central/se.bjurr.pomdependencyanalyzerweb/pom-dependency-analyzer-web)
-[![Bintray](https://api.bintray.com/packages/tomasbjerre/tomasbjerre/se.bjurr.pomdependencyanalyzerweb%3Apom-dependency-analyzer-web/images/download.svg) ](https://bintray.com/tomasbjerre/tomasbjerre/se.bjurr.pomdependencyanalyzerweb%3Apom-dependency-analyzer-web/_latestVersion)
 
 Uses output of [Pom Dependency Analyzer](https://github.com/tomasbjerre/pom-dependency-analyzer) to create a browsable webpage with graphs. The webpage is completely static and can be served from [Github pages](https://pages.github.com/), [Gitlab pages](https://docs.gitlab.com/ce/user/project/pages/) or by cloning the repo and running on `localhost`.
 
@@ -10,7 +8,7 @@ API documented in [swagger.yml](https://petstore.swagger.io/?url=https://raw.git
 Example:
 
 ```shell
-./pom-dependency-analyzer-web -af gh-pages/api
+./gradlew run --args="-af gh-pages/api"
 ```
 
 # Usage
