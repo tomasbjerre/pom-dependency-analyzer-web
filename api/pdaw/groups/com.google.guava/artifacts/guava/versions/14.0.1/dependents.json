@@ -12,4 +12,11 @@
   "classifier" : null,
   "type" : "jar",
   "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.pomdownloader",
+  "artifactId" : "pom-downloader",
+  "version" : "1.0",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
 } ]

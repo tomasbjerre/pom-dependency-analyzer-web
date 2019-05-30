@@ -133,6 +133,8 @@
 }, {
   "groupId" : "se.bjurr.jmib"
 }, {
+  "groupId" : "se.bjurr.pomdownloader"
+}, {
   "groupId" : "se.bjurr.violations"
 }, {
   "groupId" : "se.bjurr.wiremock"

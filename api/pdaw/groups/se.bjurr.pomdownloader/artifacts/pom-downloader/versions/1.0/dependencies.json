@@ -1,0 +1,15 @@
+[ {
+  "groupId" : "com.google.guava",
+  "artifactId" : "guava",
+  "version" : "14.0.1",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.softhouse",
+  "artifactId" : "jargo",
+  "version" : "0.1.1",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+} ]
