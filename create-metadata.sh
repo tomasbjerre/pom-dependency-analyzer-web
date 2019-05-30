@@ -9,7 +9,7 @@
 # a release job.
 #
 
-MAVEN_FOLDER=~/.m2/repository/se/bjurr/jmib
+MAVEN_FOLDER=~/.m2/repository/se/bjurr
 
 rm -rfv metadata \
  && git clone git@github.com:tomasbjerre/pom-dependency-web.git -b metadata metadata \
@@ -18,3 +18,8 @@ rm -rfv metadata \
  && ./analyze-pom.sh % \
  && echo $(find $MAVEN_FOLDER -name "*.pom.dot" | wc -l)/$(find $MAVEN_FOLDER -name "*.pom" | wc -l)\
  || echo Skipping: %'
+
+cd metadata \
+ && git add . \
+ && git commit -a -m update --amend \
+ && git push -f

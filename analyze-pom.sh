@@ -7,5 +7,5 @@
 
 POM_FILE=$1
 
-mvn dependency:tree -DoutputType=dot -Doutput=$POM_FILE.dot -f % \
+mvn dependency:tree -DoutputType=dot -Doutput=$POM_FILE.dot -f $POM_FILE \
  && npx pom-dependency-analyzer -d $POM_FILE.dot -sf metadata \
