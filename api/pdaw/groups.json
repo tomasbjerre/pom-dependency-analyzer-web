@@ -1,1 +1,15 @@
-[ ]
+[ {
+  "groupId" : "com.google.guava"
+}, {
+  "groupId" : "com.squareup"
+}, {
+  "groupId" : "junit"
+}, {
+  "groupId" : "org.assertj"
+}, {
+  "groupId" : "org.hamcrest"
+}, {
+  "groupId" : "org.mockito"
+}, {
+  "groupId" : "se.bjurr.jmib"
+} ]

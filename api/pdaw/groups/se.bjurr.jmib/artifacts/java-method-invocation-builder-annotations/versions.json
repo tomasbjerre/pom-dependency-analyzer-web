@@ -1,0 +1,9 @@
+[ {
+  "groupId" : "se.bjurr.jmib",
+  "artifactId" : "java-method-invocation-builder-annotations",
+  "version" : "1.0"
+}, {
+  "groupId" : "se.bjurr.jmib",
+  "artifactId" : "java-method-invocation-builder-annotations",
+  "version" : "1.4"
+} ]
