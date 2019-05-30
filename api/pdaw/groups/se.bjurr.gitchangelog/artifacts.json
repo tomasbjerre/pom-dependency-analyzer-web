@@ -1,7 +1,16 @@
 [ {
   "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-command-line"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-gradle-plugin"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-lib"
 }, {
   "groupId" : "se.bjurr.gitchangelog",
   "artifactId" : "git-changelog-maven-plugin"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-release-notes"
 } ]

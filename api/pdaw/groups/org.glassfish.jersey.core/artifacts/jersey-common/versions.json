@@ -1,0 +1,5 @@
+[ {
+  "groupId" : "org.glassfish.jersey.core",
+  "artifactId" : "jersey-common",
+  "version" : "2.27"
+} ]

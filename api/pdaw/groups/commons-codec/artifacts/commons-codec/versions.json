@@ -10,4 +10,8 @@
   "groupId" : "commons-codec",
   "artifactId" : "commons-codec",
   "version" : "1.6"
+}, {
+  "groupId" : "commons-codec",
+  "artifactId" : "commons-codec",
+  "version" : "1.9"
 } ]

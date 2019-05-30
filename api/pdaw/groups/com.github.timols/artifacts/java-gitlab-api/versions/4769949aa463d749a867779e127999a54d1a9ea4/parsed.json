@@ -1,0 +1,8 @@
+{
+  "groupId" : "com.github.timols",
+  "artifactId" : "java-gitlab-api",
+  "version" : "4769949aa463d749a867779e127999a54d1a9ea4",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}

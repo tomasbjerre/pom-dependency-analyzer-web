@@ -2,4 +2,8 @@
   "groupId" : "org.eclipse.sisu",
   "artifactId" : "org.eclipse.sisu.inject",
   "version" : "0.3.0"
+}, {
+  "groupId" : "org.eclipse.sisu",
+  "artifactId" : "org.eclipse.sisu.inject",
+  "version" : "0.3.3"
 } ]

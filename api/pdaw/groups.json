@@ -3,13 +3,21 @@
 }, {
   "groupId" : "com.fasterxml.jackson.core"
 }, {
+  "groupId" : "com.fasterxml.jackson.jaxrs"
+}, {
+  "groupId" : "com.fasterxml.jackson.module"
+}, {
   "groupId" : "com.flipkart.zjsonpatch"
 }, {
   "groupId" : "com.github.jknack"
 }, {
   "groupId" : "com.github.spullara.mustache.java"
 }, {
+  "groupId" : "com.github.timols"
+}, {
   "groupId" : "com.github.tomakehurst"
+}, {
+  "groupId" : "com.github.tomasbjerre"
 }, {
   "groupId" : "com.google.code.findbugs"
 }, {
@@ -33,6 +41,8 @@
 }, {
   "groupId" : "com.squareup.retrofit2"
 }, {
+  "groupId" : "com.sun.activation"
+}, {
   "groupId" : "com.sun.mail"
 }, {
   "groupId" : "commons-codec"
@@ -52,6 +62,10 @@
   "groupId" : "javax.inject"
 }, {
   "groupId" : "javax.servlet"
+}, {
+  "groupId" : "javax.ws.rs"
+}, {
+  "groupId" : "javax.xml.bind"
 }, {
   "groupId" : "junit"
 }, {
@@ -79,11 +93,31 @@
 }, {
   "groupId" : "org.eclipse.jgit"
 }, {
+  "groupId" : "org.eclipse.mylyn.github"
+}, {
   "groupId" : "org.eclipse.sisu"
 }, {
   "groupId" : "org.gitlab"
 }, {
+  "groupId" : "org.gitlab4j"
+}, {
+  "groupId" : "org.glassfish.hk2"
+}, {
+  "groupId" : "org.glassfish.hk2.external"
+}, {
+  "groupId" : "org.glassfish.jersey.connectors"
+}, {
+  "groupId" : "org.glassfish.jersey.core"
+}, {
+  "groupId" : "org.glassfish.jersey.inject"
+}, {
+  "groupId" : "org.glassfish.jersey.media"
+}, {
   "groupId" : "org.hamcrest"
+}, {
+  "groupId" : "org.javassist"
+}, {
+  "groupId" : "org.jvnet.mimepull"
 }, {
   "groupId" : "org.mockito"
 }, {
@@ -98,6 +132,8 @@
   "groupId" : "se.bjurr.gitchangelog"
 }, {
   "groupId" : "se.bjurr.jmib"
+}, {
+  "groupId" : "se.bjurr.violations"
 }, {
   "groupId" : "se.bjurr.wiremock"
 }, {

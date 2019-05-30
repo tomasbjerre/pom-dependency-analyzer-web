@@ -2,4 +2,8 @@
   "groupId" : "org.codehaus.plexus",
   "artifactId" : "plexus-utils",
   "version" : "3.0.22"
+}, {
+  "groupId" : "org.codehaus.plexus",
+  "artifactId" : "plexus-utils",
+  "version" : "3.1.1"
 } ]

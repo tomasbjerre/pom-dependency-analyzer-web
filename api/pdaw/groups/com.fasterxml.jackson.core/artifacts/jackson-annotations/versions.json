@@ -5,5 +5,9 @@
 }, {
   "groupId" : "com.fasterxml.jackson.core",
   "artifactId" : "jackson-annotations",
+  "version" : "2.9.0"
+}, {
+  "groupId" : "com.fasterxml.jackson.core",
+  "artifactId" : "jackson-annotations",
   "version" : "2.9.8"
 } ]

@@ -1,0 +1,9 @@
+[ {
+  "groupId" : "com.github.tomasbjerre",
+  "artifactId" : "java-gitlab-api",
+  "version" : "comment-on-diff-2"
+}, {
+  "groupId" : "com.github.tomasbjerre",
+  "artifactId" : "java-gitlab-api",
+  "version" : "master"
+} ]

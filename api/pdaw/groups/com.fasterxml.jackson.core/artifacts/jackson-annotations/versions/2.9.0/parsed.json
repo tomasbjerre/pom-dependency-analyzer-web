@@ -1,0 +1,8 @@
+{
+  "groupId" : "com.fasterxml.jackson.core",
+  "artifactId" : "jackson-annotations",
+  "version" : "2.9.0",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}

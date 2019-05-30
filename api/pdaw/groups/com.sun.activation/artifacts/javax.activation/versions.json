@@ -1,0 +1,5 @@
+[ {
+  "groupId" : "com.sun.activation",
+  "artifactId" : "javax.activation",
+  "version" : "1.2.0"
+} ]

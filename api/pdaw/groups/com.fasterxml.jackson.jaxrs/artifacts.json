@@ -1,0 +1,7 @@
+[ {
+  "groupId" : "com.fasterxml.jackson.jaxrs",
+  "artifactId" : "jackson-jaxrs-base"
+}, {
+  "groupId" : "com.fasterxml.jackson.jaxrs",
+  "artifactId" : "jackson-jaxrs-json-provider"
+} ]
