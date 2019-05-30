@@ -1,0 +1,7 @@
+[ {
+  "groupId" : "org.antlr",
+  "artifactId" : "antlr4"
+}, {
+  "groupId" : "org.antlr",
+  "artifactId" : "antlr4-runtime"
+} ]

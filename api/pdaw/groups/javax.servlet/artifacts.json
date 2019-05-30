@@ -1,0 +1,4 @@
+[ {
+  "groupId" : "javax.servlet",
+  "artifactId" : "javax.servlet-api"
+} ]

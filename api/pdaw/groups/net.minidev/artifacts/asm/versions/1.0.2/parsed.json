@@ -1,0 +1,8 @@
+{
+  "groupId" : "net.minidev",
+  "artifactId" : "asm",
+  "version" : "1.0.2",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}

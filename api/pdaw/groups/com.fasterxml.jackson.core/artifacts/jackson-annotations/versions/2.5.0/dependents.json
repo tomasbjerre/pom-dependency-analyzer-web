@@ -1,0 +1,15 @@
+[ {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-maven-plugin",
+  "version" : "1.46",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.gitchangelog",
+  "artifactId" : "git-changelog-maven-plugin",
+  "version" : "1.54",
+  "classifier" : null,
+  "type" : "maven-plugin",
+  "scope" : "compile"
+} ]

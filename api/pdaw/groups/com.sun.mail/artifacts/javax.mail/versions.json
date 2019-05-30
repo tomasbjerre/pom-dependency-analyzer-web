@@ -1,0 +1,5 @@
+[ {
+  "groupId" : "com.sun.mail",
+  "artifactId" : "javax.mail",
+  "version" : "1.6.0"
+} ]

@@ -1,0 +1,5 @@
+[ {
+  "groupId" : "org.apache.maven",
+  "artifactId" : "maven-model",
+  "version" : "3.3.3"
+} ]

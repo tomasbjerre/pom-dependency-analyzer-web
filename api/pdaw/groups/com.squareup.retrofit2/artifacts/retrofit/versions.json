@@ -1,0 +1,5 @@
+[ {
+  "groupId" : "com.squareup.retrofit2",
+  "artifactId" : "retrofit",
+  "version" : "2.0.0"
+} ]

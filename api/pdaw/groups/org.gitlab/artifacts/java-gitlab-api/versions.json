@@ -1,0 +1,5 @@
+[ {
+  "groupId" : "org.gitlab",
+  "artifactId" : "java-gitlab-api",
+  "version" : "1.2.7"
+} ]

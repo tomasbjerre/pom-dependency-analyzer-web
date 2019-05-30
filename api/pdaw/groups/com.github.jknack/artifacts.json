@@ -1,0 +1,7 @@
+[ {
+  "groupId" : "com.github.jknack",
+  "artifactId" : "handlebars"
+}, {
+  "groupId" : "com.github.jknack",
+  "artifactId" : "handlebars-helpers"
+} ]

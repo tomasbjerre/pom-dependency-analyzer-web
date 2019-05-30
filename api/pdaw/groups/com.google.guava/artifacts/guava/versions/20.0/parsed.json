@@ -1,0 +1,8 @@
+{
+  "groupId" : "com.google.guava",
+  "artifactId" : "guava",
+  "version" : "20.0",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}

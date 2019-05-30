@@ -1,0 +1,8 @@
+{
+  "groupId" : "com.googlecode.javaewah",
+  "artifactId" : "JavaEWAH",
+  "version" : "0.7.9",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}

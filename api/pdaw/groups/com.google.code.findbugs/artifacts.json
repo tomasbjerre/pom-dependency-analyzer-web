@@ -1,0 +1,4 @@
+[ {
+  "groupId" : "com.google.code.findbugs",
+  "artifactId" : "jsr305"
+} ]

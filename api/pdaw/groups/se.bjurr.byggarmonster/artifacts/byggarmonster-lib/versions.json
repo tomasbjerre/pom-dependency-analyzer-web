@@ -1,0 +1,13 @@
+[ {
+  "groupId" : "se.bjurr.byggarmonster",
+  "artifactId" : "byggarmonster-lib",
+  "version" : "1.0"
+}, {
+  "groupId" : "se.bjurr.byggarmonster",
+  "artifactId" : "byggarmonster-lib",
+  "version" : "1.1"
+}, {
+  "groupId" : "se.bjurr.byggarmonster",
+  "artifactId" : "byggarmonster-lib",
+  "version" : "1.2"
+} ]

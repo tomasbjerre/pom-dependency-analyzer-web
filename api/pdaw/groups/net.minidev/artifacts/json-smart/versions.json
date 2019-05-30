@@ -1,0 +1,13 @@
+[ {
+  "groupId" : "net.minidev",
+  "artifactId" : "json-smart",
+  "version" : "2.1.1"
+}, {
+  "groupId" : "net.minidev",
+  "artifactId" : "json-smart",
+  "version" : "2.2"
+}, {
+  "groupId" : "net.minidev",
+  "artifactId" : "json-smart",
+  "version" : "2.3"
+} ]

@@ -1,0 +1,9 @@
+[ {
+  "groupId" : "se.bjurr.wiremock",
+  "artifactId" : "wiremock-jaxrs",
+  "version" : "0.1"
+}, {
+  "groupId" : "se.bjurr.wiremock",
+  "artifactId" : "wiremock-jaxrs",
+  "version" : "0.2"
+} ]

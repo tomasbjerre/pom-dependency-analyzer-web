@@ -1,0 +1,10 @@
+[ {
+  "groupId" : "se.bjurr.byggarmonster",
+  "artifactId" : "byggarmonster-gradle-plugin"
+}, {
+  "groupId" : "se.bjurr.byggarmonster",
+  "artifactId" : "byggarmonster-lib"
+}, {
+  "groupId" : "se.bjurr.byggarmonster",
+  "artifactId" : "byggarmonster-maven-plugin"
+} ]
