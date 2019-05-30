@@ -1,8 +1,0 @@
-{
-  "groupId" : "com.github.tomakehurst",
-  "artifactId" : "wiremock",
-  "version" : "2.23.2",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-}

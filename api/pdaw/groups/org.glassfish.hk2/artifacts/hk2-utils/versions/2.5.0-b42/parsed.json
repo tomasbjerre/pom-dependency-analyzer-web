@@ -1,8 +1,0 @@
-{
-  "groupId" : "org.glassfish.hk2",
-  "artifactId" : "hk2-utils",
-  "version" : "2.5.0-b42",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-}

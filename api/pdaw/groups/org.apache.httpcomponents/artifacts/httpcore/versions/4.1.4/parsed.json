@@ -1,8 +1,0 @@
-{
-  "groupId" : "org.apache.httpcomponents",
-  "artifactId" : "httpcore",
-  "version" : "4.1.4",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-}

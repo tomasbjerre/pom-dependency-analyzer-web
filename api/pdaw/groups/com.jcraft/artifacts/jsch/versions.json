@@ -1,9 +1,0 @@
-[ {
-  "groupId" : "com.jcraft",
-  "artifactId" : "jsch",
-  "version" : "0.1.50"
-}, {
-  "groupId" : "com.jcraft",
-  "artifactId" : "jsch",
-  "version" : "0.1.53"
-} ]

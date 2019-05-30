@@ -1,8 +1,0 @@
-{
-  "groupId" : "com.github.tomasbjerre",
-  "artifactId" : "java-gitlab-api",
-  "version" : "master",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-}

@@ -1,7 +1,0 @@
-[ {
-  "groupId" : "se.bjurr.jmib",
-  "artifactId" : "java-method-invocation-builder"
-}, {
-  "groupId" : "se.bjurr.jmib",
-  "artifactId" : "java-method-invocation-builder-annotations"
-} ]

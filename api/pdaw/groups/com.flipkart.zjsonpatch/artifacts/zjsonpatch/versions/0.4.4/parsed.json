@@ -1,8 +1,0 @@
-{
-  "groupId" : "com.flipkart.zjsonpatch",
-  "artifactId" : "zjsonpatch",
-  "version" : "0.4.4",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-}

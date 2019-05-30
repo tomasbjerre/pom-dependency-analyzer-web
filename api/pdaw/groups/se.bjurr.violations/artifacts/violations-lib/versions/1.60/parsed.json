@@ -1,8 +1,0 @@
-{
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violations-lib",
-  "version" : "1.60",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-}

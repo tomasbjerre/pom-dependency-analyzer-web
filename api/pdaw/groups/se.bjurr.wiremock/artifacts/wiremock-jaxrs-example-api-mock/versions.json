@@ -1,9 +1,0 @@
-[ {
-  "groupId" : "se.bjurr.wiremock",
-  "artifactId" : "wiremock-jaxrs-example-api-mock",
-  "version" : "1.5"
-}, {
-  "groupId" : "se.bjurr.wiremock",
-  "artifactId" : "wiremock-jaxrs-example-api-mock",
-  "version" : "1.6"
-} ]

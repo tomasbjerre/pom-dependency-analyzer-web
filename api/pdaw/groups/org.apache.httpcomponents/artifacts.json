@@ -1,7 +1,0 @@
-[ {
-  "groupId" : "org.apache.httpcomponents",
-  "artifactId" : "httpclient"
-}, {
-  "groupId" : "org.apache.httpcomponents",
-  "artifactId" : "httpcore"
-} ]

@@ -1,7 +1,0 @@
-[ {
-  "groupId" : "org.glassfish.hk2.external",
-  "artifactId" : "aopalliance-repackaged"
-}, {
-  "groupId" : "org.glassfish.hk2.external",
-  "artifactId" : "javax.inject"
-} ]

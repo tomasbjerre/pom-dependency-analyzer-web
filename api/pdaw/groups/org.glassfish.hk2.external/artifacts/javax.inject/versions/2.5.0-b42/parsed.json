@@ -1,8 +1,0 @@
-{
-  "groupId" : "org.glassfish.hk2.external",
-  "artifactId" : "javax.inject",
-  "version" : "2.5.0-b42",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-}

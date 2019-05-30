@@ -1,8 +1,0 @@
-{
-  "groupId" : "org.gitlab",
-  "artifactId" : "java-gitlab-api",
-  "version" : "4.0.0",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-}

@@ -1,8 +1,0 @@
-{
-  "groupId" : "org.apache.maven",
-  "artifactId" : "maven-artifact",
-  "version" : "3.3.3",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-}

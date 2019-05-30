@@ -1,9 +1,0 @@
-[ {
-  "groupId" : "com.squareup.okhttp",
-  "artifactId" : "okhttp",
-  "version" : "2.3.0"
-}, {
-  "groupId" : "com.squareup.okhttp",
-  "artifactId" : "okhttp",
-  "version" : "2.7.5"
-} ]

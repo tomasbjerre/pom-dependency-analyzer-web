@@ -1,8 +1,0 @@
-{
-  "groupId" : "se.bjurr.violations",
-  "artifactId" : "violation-comments-to-github-gradle-plugin",
-  "version" : "1.5",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-}

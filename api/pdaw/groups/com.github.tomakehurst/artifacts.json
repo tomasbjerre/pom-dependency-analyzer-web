@@ -1,7 +1,0 @@
-[ {
-  "groupId" : "com.github.tomakehurst",
-  "artifactId" : "wiremock"
-}, {
-  "groupId" : "com.github.tomakehurst",
-  "artifactId" : "wiremock-standalone"
-} ]

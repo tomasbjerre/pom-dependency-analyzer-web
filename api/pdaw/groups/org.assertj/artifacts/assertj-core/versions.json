@@ -1,9 +1,0 @@
-[ {
-  "groupId" : "org.assertj",
-  "artifactId" : "assertj-core",
-  "version" : "2.3.0"
-}, {
-  "groupId" : "org.assertj",
-  "artifactId" : "assertj-core",
-  "version" : "2.5.0"
-} ]

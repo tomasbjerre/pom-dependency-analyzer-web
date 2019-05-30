@@ -1,9 +1,0 @@
-[ {
-  "groupId" : "org.eclipse.jgit",
-  "artifactId" : "org.eclipse.jgit",
-  "version" : "3.6.2.201501210735-r"
-}, {
-  "groupId" : "org.eclipse.jgit",
-  "artifactId" : "org.eclipse.jgit",
-  "version" : "4.1.0.201509280440-r"
-} ]

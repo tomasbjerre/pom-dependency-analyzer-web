@@ -1,8 +1,0 @@
-{
-  "groupId" : "se.bjurr.byggarmonster",
-  "artifactId" : "byggarmonster-maven-plugin",
-  "version" : "1.0",
-  "classifier" : null,
-  "type" : "maven-plugin",
-  "scope" : "compile"
-}

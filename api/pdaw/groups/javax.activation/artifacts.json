@@ -1,7 +1,0 @@
-[ {
-  "groupId" : "javax.activation",
-  "artifactId" : "activation"
-}, {
-  "groupId" : "javax.activation",
-  "artifactId" : "javax.activation-api"
-} ]
