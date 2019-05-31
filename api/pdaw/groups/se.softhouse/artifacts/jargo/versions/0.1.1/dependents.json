@@ -15,21 +15,7 @@
 }, {
   "groupId" : "se.bjurr.byggarmonster",
   "artifactId" : "byggarmonster-lib",
-  "version" : "1.0",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-}, {
-  "groupId" : "se.bjurr.byggarmonster",
-  "artifactId" : "byggarmonster-lib",
   "version" : "1.1",
-  "classifier" : null,
-  "type" : "jar",
-  "scope" : "compile"
-}, {
-  "groupId" : "se.bjurr.byggarmonster",
-  "artifactId" : "byggarmonster-lib",
-  "version" : "1.2",
   "classifier" : null,
   "type" : "jar",
   "scope" : "compile"
