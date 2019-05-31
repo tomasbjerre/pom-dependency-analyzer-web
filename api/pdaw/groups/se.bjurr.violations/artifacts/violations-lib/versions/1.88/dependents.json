@@ -1,6 +1,13 @@
 [ {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-lib",
+  "version" : "1.89",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-lib",
   "version" : "1.90",
   "classifier" : null,
   "type" : "jar",
@@ -16,6 +23,27 @@
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-lib",
   "version" : "1.91",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-lib",
+  "version" : "1.92",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-lib",
+  "version" : "1.93",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-lib",
+  "version" : "1.94",
   "classifier" : null,
   "type" : "jar",
   "scope" : "compile"

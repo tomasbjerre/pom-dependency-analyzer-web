@@ -1,6 +1,20 @@
 [ {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-lib",
+  "version" : "1.10",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-lib",
+  "version" : "1.11",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-lib",
   "version" : "1.9",
   "classifier" : null,
   "type" : "jar",

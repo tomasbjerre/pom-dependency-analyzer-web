@@ -1,6 +1,13 @@
 [ {
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-lib",
+  "version" : "1.24",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-lib",
   "version" : "1.25",
   "classifier" : null,
   "type" : "jar",
@@ -30,6 +37,13 @@
   "groupId" : "se.bjurr.violations",
   "artifactId" : "violation-comments-lib",
   "version" : "1.29",
+  "classifier" : null,
+  "type" : "jar",
+  "scope" : "compile"
+}, {
+  "groupId" : "se.bjurr.violations",
+  "artifactId" : "violation-comments-lib",
+  "version" : "1.30",
   "classifier" : null,
   "type" : "jar",
   "scope" : "compile"
