@@ -11,8 +11,9 @@
 
 MAVEN_FOLDER=~/.m2/repository/se/bjurr
 
-rm -rfv metadata \
+rm -rf metadata \
  && git clone git@github.com:tomasbjerre/pom-dependency-web.git -b metadata metadata \
+ && rm -rf metadata/* \
  && find $MAVEN_FOLDER -type f -name "*.pom" \
  | xargs -I % sh -c '([ ! -e %.dot ] || grep -Fq "\-SNAPSHOT" %) \
  && ./analyze-pom.sh % \
